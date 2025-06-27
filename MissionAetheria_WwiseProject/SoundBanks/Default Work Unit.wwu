@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{424BA06D-9D98-4401-B1F8-DE68588FC24B}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{424BA06D-9D98-4401-B1F8-DE68588FC24B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Voicelines" ID="{C15CCAE9-6EE0-4CCC-9897-4411CE236610}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Voiceline" ID="{6C9799C7-DA53-46A0-9F85-5E69B2E63C0B}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Roles" ID="{B6EDE3E5-1551-4CCF-8658-8C8F3E7252FF}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{556D65DE-E108-496D-A0D1-97791900DA7F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ResearchServer" ID="{833D4E99-BE61-4135-8330-14B9189F4162}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Click" ID="{A7B33C16-87DA-458E-9B71-4E0086A2F849}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="LoadingScreen" ID="{86C9EA8E-A190-45FB-AD7C-FA7C68A10653}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hover" ID="{2337207D-FFEB-4AA4-B3B3-8648A4AAA548}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{57B7F9E4-492B-496A-8F1A-CDF794812594}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{D64F318B-9293-48C5-B0DC-53709BC51E8F}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Characters" ID="{C25869C5-F92C-44B0-B572-0D1896DB6603}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Grenade_Impule" ID="{F23551C3-DA5D-4006-BDA0-888F7ADDA98F}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_allies_you_attach_to_the_plane" ID="{2A8DD7AF-0221-4098-B827-7B78528E6075}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_FLAME" ID="{FC26BE06-858F-413B-9C76-EC7781CDF097}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reload_Pisto" ID="{37E62392-FD02-41A4-8392-5126DDDA7DF8}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_FLAME_RELOAD" ID="{CCF53D8E-AFCF-4330-A27B-F3EF2E006CAB}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grab" ID="{F71F3E3D-D69B-435C-A531-B65578FD2113}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_war_plane_missiles" ID="{CCF92062-E233-43E2-BCF7-3F61A884AF0D}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SandWalkRandom" ID="{530C4121-EB94-4425-84DC-896307DEF3EF}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reffil_canister" ID="{84249655-4274-442E-A60D-A9F210C20E9C}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_reloading_minigun" ID="{5887F9E6-144D-44AF-8C84-C0F3C337DD93}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_futuriste_spaceship" ID="{D96F64A4-C5F2-44FA-A38B-FEA54B939B56}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Riffle_tek_reload" ID="{48F23801-968B-44FE-ADC0-804A00BD96CE}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Precision_Riffle_Reload" ID="{7F3BCDBA-9F5B-4554-A917-CF96D7D52995}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_FIRE_DAMAGE" ID="{75302C2F-5CD2-4646-A84A-5D255EEEA7F8}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_SHIELD" ID="{3547BF0C-395C-46CD-81F0-04BC44116840}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_War_plane_minigun" ID="{0B5E6D0F-806E-476D-A80A-374D760E9F76}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Loose_PV" ID="{5E970D07-3222-4861-B8C2-E8B6F18BEA40}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Precision_Riffle_Shoot" ID="{F3789561-F0AA-4C2F-B873-5190EECED93A}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Tek_riffle" ID="{D36CC63D-6DF4-4D51-B81B-406AD02127EC}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_IEM" ID="{04C8635B-A0D1-4DB3-AAF2-973AF2B14D32}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_FLAME_MAX" ID="{0BA9591F-93E5-4F4F-9A4C-34D3E56C6AE1}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shoot_Pistol" ID="{4378A9EA-7F82-4F8B-B642-949CE3F87B67}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Robots" ID="{CA56BE31-6BD9-4632-B6E1-6C53427BBBB1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_robot_shot" ID="{CAAA7A38-AFB5-4063-A90D-C8201AEE2FDA}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_run" ID="{87CC78C1-CA58-4104-8642-8A4464045539}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_walk" ID="{E6255F7E-20D6-4134-B6D4-E010942E83E6}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_punch" ID="{E8B2A784-E8FC-4199-8C49-106F35B1F81C}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_medium_impact_05" ID="{8696D986-18CC-4753-B10B-BBCEF1CF8B7B}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_die" ID="{CA11780E-37AA-4B83-8BFB-D59400EBC2DC}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_INFECTED_ROBOT" ID="{7E50E3A7-2276-4B88-A86A-EA4A8A333920}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_in_fire" ID="{0DB407E2-8576-4D7C-8432-C29975FAFA7B}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_little_robot_kick" ID="{CC2A8171-9C6F-4F81-A7F4-4D5638528AE8}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RobotWalkRandom" ID="{6FA06295-8149-4FB7-B525-4CC6658475EF}" WorkUnitID="{5439E240-3980-4913-907D-A029E2925EBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

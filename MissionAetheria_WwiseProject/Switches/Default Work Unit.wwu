@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B8C4FB40-4152-4388-B037-27A9EE917333}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{B8C4FB40-4152-4388-B037-27A9EE917333}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Roles" ID="{1013B0FF-871E-4349-832C-C7D6070DE084}">
+					<ChildrenList>
+						<Switch Name="PILOT" ID="{663EDA80-E49E-40A0-9FF6-10543A191D1E}"/>
+						<Switch Name="MEDIC" ID="{8948C5C2-45FA-4BAE-8207-F5212C170122}"/>
+						<Switch Name="PYROMANIAC" ID="{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"/>
+						<Switch Name="HACKER" ID="{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"/>
+						<Switch Name="SNIPER" ID="{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Types" ID="{6322B586-4EF5-4C55-8573-4AFE86A6EFC2}">
+					<ChildrenList>
+						<Switch Name="CharacterSelected" ID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+						<Switch Name="LevelPanel" ID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+						<Switch Name="Kill" ID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+						<Switch Name="HealAlly" ID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+						<Switch Name="HealSelf" ID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+						<Switch Name="EnergyAlly" ID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+						<Switch Name="EnergySelf" ID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+						<Switch Name="AllyDead" ID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+						<Switch Name="Wave" ID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+						<Switch Name="Ride" ID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+						<Switch Name="Defeat" ID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+						<Switch Name="Victory" ID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="CombatState" ID="{DD31AF01-7573-4CF0-8413-9624ACF3C298}">
+					<ChildrenList>
+						<Switch Name="INTRO" ID="{19162A02-3135-4733-8270-B3B7648B5031}"/>
+						<Switch Name="NORMAL" ID="{BD137C15-F693-4D49-B360-8C2C9FCB1422}"/>
+						<Switch Name="LOSING" ID="{49964DFC-1A17-4625-8059-142CB79D82E4}"/>
+						<Switch Name="WINNING" ID="{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"/>
+						<Switch Name="LOST" ID="{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"/>
+						<Switch Name="WON" ID="{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"/>
+						<Switch Name="LOSING_TO_NORMAL" ID="{725E7E15-B490-43E8-94EA-DF16874D9CCA}"/>
+						<Switch Name="NORMAL_TO_LOSING" ID="{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="MusicState" ID="{03117505-D6A5-46FD-847A-B0B2689E4B3F}">
+					<ChildrenList>
+						<Switch Name="MENU" ID="{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"/>
+						<Switch Name="STAGE_CHOICE" ID="{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"/>
+						<Switch Name="COMBAT" ID="{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
