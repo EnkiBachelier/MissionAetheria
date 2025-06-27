@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{2E63F165-A922-B9DF-FD08-CC7F23040572}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{ABB427E7-5B9E-40EF-B50F-9907F74D512C}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{04A26B24-6186-4851-AEF3-CE52364548F2}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="133642231" Name="General" ObjectPath="\Game Parameters\Default Work Unit\General" GUID="{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"/>
+				<GameParameter Id="393239870" Name="Sfx" ObjectPath="\Game Parameters\Default Work Unit\Sfx" GUID="{A131AE96-692E-4C05-9B82-8543483F4D51}"/>
+				<GameParameter Id="1002703731" Name="Voiceline" ObjectPath="\Game Parameters\Default Work Unit\Voiceline" GUID="{94D08BFA-C1C6-42E7-9FF7-D74547FCCE28}"/>
+				<GameParameter Id="3991942870" Name="Music" ObjectPath="\Game Parameters\Default Work Unit\Music" GUID="{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="408582676" Name="Types" ObjectPath="\Switches\Default Work Unit\Types" GUID="{6322B586-4EF5-4C55-8573-4AFE86A6EFC2}">
+					<Switches>
+						<Switch Id="993089949" Name="LevelPanel" ObjectPath="\Switches\Default Work Unit\Types\LevelPanel" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+						<Switch Id="1593864692" Name="Defeat" ObjectPath="\Switches\Default Work Unit\Types\Defeat" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+						<Switch Id="1825909681" Name="AllyDead" ObjectPath="\Switches\Default Work Unit\Types\AllyDead" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+						<Switch Id="1941003890" Name="Wave" ObjectPath="\Switches\Default Work Unit\Types\Wave" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+						<Switch Id="2030840469" Name="Kill" ObjectPath="\Switches\Default Work Unit\Types\Kill" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+						<Switch Id="2227248325" Name="CharacterSelected" ObjectPath="\Switches\Default Work Unit\Types\CharacterSelected" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+						<Switch Id="2716678721" Name="Victory" ObjectPath="\Switches\Default Work Unit\Types\Victory" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+						<Switch Id="2745196565" Name="HealAlly" ObjectPath="\Switches\Default Work Unit\Types\HealAlly" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+						<Switch Id="2766121599" Name="Ride" ObjectPath="\Switches\Default Work Unit\Types\Ride" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+						<Switch Id="3013823463" Name="EnergySelf" ObjectPath="\Switches\Default Work Unit\Types\EnergySelf" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+						<Switch Id="3178938455" Name="EnergyAlly" ObjectPath="\Switches\Default Work Unit\Types\EnergyAlly" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+						<Switch Id="3506714309" Name="HealSelf" ObjectPath="\Switches\Default Work Unit\Types\HealSelf" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1021618141" Name="MusicState" ObjectPath="\Switches\Default Work Unit\MusicState" GUID="{03117505-D6A5-46FD-847A-B0B2689E4B3F}">
+					<Switches>
+						<Switch Id="1523385933" Name="STAGE_CHOICE" ObjectPath="\Switches\Default Work Unit\MusicState\STAGE_CHOICE" GUID="{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"/>
+						<Switch Id="2607556080" Name="MENU" ObjectPath="\Switches\Default Work Unit\MusicState\MENU" GUID="{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"/>
+						<Switch Id="2764240573" Name="COMBAT" ObjectPath="\Switches\Default Work Unit\MusicState\COMBAT" GUID="{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1071758680" Name="CombatState" ObjectPath="\Switches\Default Work Unit\CombatState" GUID="{DD31AF01-7573-4CF0-8413-9624ACF3C298}">
+					<Switches>
+						<Switch Id="221232711" Name="LOST" ObjectPath="\Switches\Default Work Unit\CombatState\LOST" GUID="{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"/>
+						<Switch Id="335549223" Name="LOSING" ObjectPath="\Switches\Default Work Unit\CombatState\LOSING" GUID="{49964DFC-1A17-4625-8059-142CB79D82E4}"/>
+						<Switch Id="1007798069" Name="NORMAL_TO_LOSING" ObjectPath="\Switches\Default Work Unit\CombatState\NORMAL_TO_LOSING" GUID="{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"/>
+						<Switch Id="1080430619" Name="WON" ObjectPath="\Switches\Default Work Unit\CombatState\WON" GUID="{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"/>
+						<Switch Id="1125500713" Name="INTRO" ObjectPath="\Switches\Default Work Unit\CombatState\INTRO" GUID="{19162A02-3135-4733-8270-B3B7648B5031}"/>
+						<Switch Id="1160234136" Name="NORMAL" ObjectPath="\Switches\Default Work Unit\CombatState\NORMAL" GUID="{BD137C15-F693-4D49-B360-8C2C9FCB1422}"/>
+						<Switch Id="1617319613" Name="LOSING_TO_NORMAL" ObjectPath="\Switches\Default Work Unit\CombatState\LOSING_TO_NORMAL" GUID="{725E7E15-B490-43E8-94EA-DF16874D9CCA}"/>
+						<Switch Id="2996998095" Name="WINNING" ObjectPath="\Switches\Default Work Unit\CombatState\WINNING" GUID="{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1493036792" Name="Roles" ObjectPath="\Switches\Default Work Unit\Roles" GUID="{1013B0FF-871E-4349-832C-C7D6070DE084}">
+					<Switches>
+						<Switch Id="313898792" Name="PYROMANIAC" ObjectPath="\Switches\Default Work Unit\Roles\PYROMANIAC" GUID="{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"/>
+						<Switch Id="778039303" Name="HACKER" ObjectPath="\Switches\Default Work Unit\Roles\HACKER" GUID="{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"/>
+						<Switch Id="1842327993" Name="PILOT" ObjectPath="\Switches\Default Work Unit\Roles\PILOT" GUID="{663EDA80-E49E-40A0-9FF6-10543A191D1E}"/>
+						<Switch Id="2550763292" Name="SNIPER" ObjectPath="\Switches\Default Work Unit\Roles\SNIPER" GUID="{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"/>
+						<Switch Id="3142410969" Name="MEDIC" ObjectPath="\Switches\Default Work Unit\Roles\MEDIC" GUID="{8948C5C2-45FA-4BAE-8207-F5212C170122}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F5164E18-C650-DE17-C916-CBBAF6D1F1B9}</FileHash>
+</SoundBanksInfo>

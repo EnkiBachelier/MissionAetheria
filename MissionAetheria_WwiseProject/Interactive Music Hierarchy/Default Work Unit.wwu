@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}" SchemaVersion="119">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music_State" ID="{46773F71-A4DD-450B-9A35-1FAFBEDD7DE2}" ShortID="267784198">
+					<PropertyList>
+						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{26027C94-9C91-4BA4-AECD-EC087390592D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{8B55DB4E-20C7-4814-9802-A4259401A8F9}">
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{67653126-B194-4AD4-9DCD-D0BEC4988A85}">
+														<PropertyList>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{03F6390B-4F11-496E-9367-77548164EDB3}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="0"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSwitchContainer Name="Combat_Music" ID="{52695C46-2A35-4FCD-BE52-90D941DC5C26}" ShortID="591921738">
+							<PropertyList>
+								<Property Name="ContinuePlay" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{A72B14F5-B0B2-45D3-80D9-E97746A472A2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{A825E35B-9CC1-4154-87FE-1B89A8C68F82}">
+													<TransitionInfo>
+														<TransitionObjectRef Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{E3DB1666-D266-45DF-A230-170382CF6BB8}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</TransitionInfo>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{3F041095-83AA-4669-9E9C-5A4331A6D7E2}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{CF725BF6-5D0B-4E9A-994D-61C853C0053A}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{257025AF-23FC-41AC-8FAD-04DEB3CEAB82}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{80A1C212-4981-4177-8827-8A0C813B1916}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+														<Property Name="SourceContextType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{AE5945C6-D8E9-461B-ACC0-CCCE72EFCDBA}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+														<Reference Name="SourceContextObject">
+															<ObjectRef Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{C28BFA48-9884-48F2-AEE2-B179077E3958}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
+												<MusicTransition Name="Transition" ID="{27D0B1FE-EE69-4CF9-B1D6-7D8F6E969D5C}">
+													<PropertyList>
+														<Property Name="DestinationContextType" Type="int16" Value="2"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="DestinationContextObject">
+															<ObjectRef Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{AE5945C6-D8E9-461B-ACC0-CCCE72EFCDBA}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+													</ReferenceList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{E3DB1666-D266-45DF-A230-170382CF6BB8}" ShortID="965999961">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42988.4373124666"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{0D51437F-0A94-4B9D-AFAD-488B0F3F2720}" ShortID="387719314">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{D24AB3EB-1F8B-4E86-AC26-1D246678A746}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{C4EC417A-AB17-40A3-B886-68F5F7E22CB4}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_INTRO_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="794644685"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{6138BFBC-CCCC-4FD2-85E7-D18D9C1F2C40}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="42.2523452288611"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{04212920-38D8-4232-9821-14D7F5EBFF36}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{653B0172-BC4A-4109-A11A-9D49D7D31B42}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="42666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{C4EC417A-AB17-40A3-B886-68F5F7E22CB4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9F0B7EB2-AB11-4107-B818-CD1765A65D40}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2538B528-4AEF-4DCB-A5FF-12DBE3941CC6}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="42182.8010338848"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{CF725BF6-5D0B-4E9A-994D-61C853C0053A}" ShortID="41538888">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42666.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{BA203142-9EE8-4F78-B2BE-6E7EF8ABEE5D}" ShortID="593091015">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{082146DC-EE98-42F5-8BC8-13CCB2D85A04}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{C5D5B123-B42E-41E6-BB6F-1C0209A921EB}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_LOSING_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="65559052"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{C18E9692-330D-4C4B-980E-89D67251EE4C}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="42.4620189814995"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9DDC5367-DEE0-4D21-9683-3F49F7BC0EBC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{FE950888-C18A-46CB-AD23-E83425F5116E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="42666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{C5D5B123-B42E-41E6-BB6F-1C0209A921EB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B405E0DE-E5CF-46F6-8333-29E96DF6FB3E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CC6BD6DE-4D01-495B-9F34-75FF83077341}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="42666.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{C28BFA48-9884-48F2-AEE2-B179077E3958}" ShortID="532163044">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="8747.45833333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{C3D83432-7370-4CEB-BC02-72455FF65E1B}" ShortID="218257888">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{A188A390-F727-4038-8B19-5906195282A2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{602C5467-57D9-4BD2-870C-393DE9AC344E}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="595490260"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{8D99D400-A44A-4A91-AF95-0B68F969DEC6}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="8.72348989342549"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B1205296-EF7D-4625-95B9-2B4050023FAF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{68761B55-CBBA-46C2-91E9-CC9AD31D8FFB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8747.45833333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{602C5467-57D9-4BD2-870C-393DE9AC344E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{96D8C973-56AF-4B57-B974-026C11CB90CB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1A2EBC34-CFE4-49B9-BAAF-2255E9B624F2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8747.45833333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_LOST_V4" ID="{7BE29952-9BB5-4784-BAF0-892AC60F4F58}" ShortID="983066293">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10666.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_LOST_V4" ID="{C108B84C-1B51-474A-AD6C-9E934D076352}" ShortID="679854411">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{FFF4F7E9-11EC-463A-935C-452FB736ABD2}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_LOST_V4" ID="{57009A31-67F5-4D1F-AD71-55908FBABD27}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_LOST_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="285974634"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{34C9C237-026A-49B2-AAA7-EC0070BE27FE}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="10.5982905982906"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{66D212AE-AE01-4790-B570-3545481B8FA2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_LOST_V4" ID="{2F6F5E78-892B-40BB-98ED-551BE99D19CA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_LOST_V4" ID="{57009A31-67F5-4D1F-AD71-55908FBABD27}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{74E39D04-901A-44CD-A990-236E9618CB87}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D4C7DFC7-8C38-4167-A38D-427AB6188C2F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10666.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{AE5945C6-D8E9-461B-ACC0-CCCE72EFCDBA}" ShortID="835571748">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42666.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{2109F4EE-8A60-4603-9E63-C4189ACCC71D}" ShortID="98578384">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{B5D5F771-0DA4-479A-9763-DA78AC69980A}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{B56FDA7C-61A8-4402-AE54-2C8B64CC1FFC}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_NORMAL_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="677109015"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{4BF9C174-8BE2-49C6-93B0-0B1B1A89E87F}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="42.3931623931624"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AB7BECA3-6C64-4AE9-99B0-80865C74A00F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{6836C67E-9074-4381-A159-F6F2019A0D9D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="42666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{B56FDA7C-61A8-4402-AE54-2C8B64CC1FFC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{28FF7B8A-2468-47DF-BDB0-26C3EAE14CAD}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D5BF603A-515E-4B72-9462-EFE2C055BD47}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="42666.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{257025AF-23FC-41AC-8FAD-04DEB3CEAB82}" ShortID="608513869">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="17483.9791666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{0BDC2DA7-4392-48E3-AAB4-0653C6A6B29F}" ShortID="902346279">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F8547D41-3252-4F8F-9B48-CEB0C7F84259}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{8310E632-A564-4BE9-BBA9-9A715A8C732E}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_NORMALtoLOSING_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="470330310"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{845F3E87-3C56-46DF-8300-B5E31FD87463}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="17.3943177350427"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{53C5E1FB-7EFC-4771-B2AC-2652627D1324}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{911440F5-D330-450A-A402-A850066749D0}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="17483.9791666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{8310E632-A564-4BE9-BBA9-9A715A8C732E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{00621AE4-D8C0-45B9-AC32-5FE62D63437D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{22A03D82-AD03-4CF5-8E4E-B1DE71C75A1C}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="17483.9791666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_WINING_V4" ID="{0A476FC7-F6FD-472E-BF4D-9A27DCFB8896}" ShortID="515760309">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42666.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_WINING_V4" ID="{E4619BF8-68DD-4C9B-B1AD-AB0040B0E4C0}" ShortID="962019645">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{5F8A81FB-14AE-4D5F-A71C-47B571D90503}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_WINING_V4" ID="{B72F4F44-DFDB-4BEE-9A82-6592C9089B3F}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_WINING_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587551040"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{AF4DEF3A-34B7-4EC9-A609-60C6DF6FFC4F}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="42.5025641025641"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FD3213CB-EB63-4DC1-AA1D-AF829B2D3CED}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_WINING_V4" ID="{DA8B4B94-A823-483A-97E4-40E44E24610D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="42666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_WINING_V4" ID="{B72F4F44-DFDB-4BEE-9A82-6592C9089B3F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{46726093-8BCE-462C-9281-C937D3C3E8F4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D9A15D95-FADD-4670-8CC0-F5B85A84D11D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="42666.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="MissionAetheria_BattleMusic_WON_V4" ID="{3B5B1EF8-3DF2-4F2F-BF64-CC7B4E525A6B}" ShortID="333439012">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42666.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_BattleMusic_WON_V4" ID="{A1B4026D-0CB8-4359-B4F5-1E165A1D3566}" ShortID="408721831">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{F1D5E1B4-68CA-4661-8220-F8B7A14C8F46}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_BattleMusic_WON_V4" ID="{B62C33C3-8A82-48EF-9F54-04B522DD2A94}">
+													<PropertyList>
+														<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_BattleMusic_WON_V4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="514355989"/>
+													</MediaIDList>
+													<ObjectLists>
+														<ObjectList Name="Markers">
+															<Reference>
+																<Local>
+																	<Marker Name="" ID="{20D2EBB0-59BC-431C-B2E1-63C71869CE28}">
+																		<PropertyList>
+																			<Property Name="Label" Type="string" Value="ENDSEGEMNT"/>
+																			<Property Name="Time" Type="Real64" Value="42.3931623931624"/>
+																		</PropertyList>
+																	</Marker>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E8CFA921-AD36-4954-A278-3220C3B3C857}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_BattleMusic_WON_V4" ID="{B1597368-4988-4C0E-9144-C6950377B78C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="42666.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_BattleMusic_WON_V4" ID="{B62C33C3-8A82-48EF-9F54-04B522DD2A94}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{38D9C526-FDCE-4E10-ABA7-15038A6A0A64}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CC2BE971-7D9B-4C28-B91C-0417C2DFE07A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="42666.6666666667"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Arguments">
+									<Reference>
+										<ObjectRef Name="CombatState" ID="{DD31AF01-7573-4CF0-8413-9624ACF3C298}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="Entries">
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{D496C123-7BAB-4F23-904D-DD2A22ECDC2B}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_INTRO_V4" ID="{E3DB1666-D266-45DF-A230-170382CF6BB8}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="INTRO" ID="{19162A02-3135-4733-8270-B3B7648B5031}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{84E9265B-7EEA-4202-A26D-064BBBE7F636}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_NORMAL_V4" ID="{AE5945C6-D8E9-461B-ACC0-CCCE72EFCDBA}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="NORMAL" ID="{BD137C15-F693-4D49-B360-8C2C9FCB1422}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{3ED57DAC-DFDD-4D62-8448-A1CD49A93A1C}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_LOST_V4" ID="{7BE29952-9BB5-4784-BAF0-892AC60F4F58}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="LOST" ID="{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{CDE25193-53B0-4790-9291-A9F187F3C852}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_LOSING_V4" ID="{CF725BF6-5D0B-4E9A-994D-61C853C0053A}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="LOSING" ID="{49964DFC-1A17-4625-8059-142CB79D82E4}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{58FAF260-5AF2-4648-A2F2-AF5313A6D962}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_WINING_V4" ID="{0A476FC7-F6FD-472E-BF4D-9A27DCFB8896}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="WINNING" ID="{0578C7E8-8A19-4180-91E6-9C71D37D1E60}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{8F3DFA16-751A-4817-A88F-00BEB0B279B9}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_WON_V4" ID="{3B5B1EF8-3DF2-4F2F-BF64-CC7B4E525A6B}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="WON" ID="{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{103A0BE3-015B-4649-B968-F65D79AC3EFE}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_NORMALtoLOSING_V4" ID="{257025AF-23FC-41AC-8FAD-04DEB3CEAB82}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="NORMAL_TO_LOSING" ID="{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MultiSwitchEntry Name="" ID="{85AD155F-EA49-41DC-8BF1-7319F904FC3C}">
+												<ReferenceList>
+													<Reference Name="AudioNode">
+														<ObjectRef Name="MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4" ID="{C28BFA48-9884-48F2-AEE2-B179077E3958}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+													</Reference>
+												</ReferenceList>
+												<ObjectLists>
+													<ObjectList Name="EntryPath">
+														<Reference>
+															<ObjectRef Name="LOSING_TO_NORMAL" ID="{725E7E15-B490-43E8-94EA-DF16874D9CCA}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MultiSwitchEntry>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSwitchContainer>
+						<MusicPlaylistContainer Name="CHOIX_NIVEAUX" ID="{FDD90B87-D214-4C62-82AD-DCE4995C78E4}" ShortID="771534869">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{EF7333BA-8083-47D3-A5A6-291497E0D582}" ShortID="831060853">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{88AC1630-0BE6-4B53-B585-B347A428B3F3}" ShortID="842947689">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="MissionAetheria_ChoixNiveau_V1" ID="{037A560B-BD4C-4523-96E6-D6BD76B8F855}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{88D73C8C-F06B-4015-BE13-174D8B48C944}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{82DDB9BA-568A-4F59-ABE3-7E6328A5636D}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MissionAetheria_ChoixNiveau_V1" ID="{037A560B-BD4C-4523-96E6-D6BD76B8F855}" ShortID="213764925">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="64000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_ChoixNiveau_V1" ID="{D66A9A84-6BF3-4066-B814-4C18483B7226}" ShortID="345791668">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{7F64447A-7442-4C10-90B4-B186A637AE8C}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_ChoixNiveau_V1" ID="{17F01202-BBB5-4F22-A36D-72FBB4499A7E}">
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_ChoixNiveau_V1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1003862042"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{11F44ACA-4916-43C9-B807-A1A228CBED3A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_ChoixNiveau_V1" ID="{509A5E28-69F0-4A9F-9CC0-E8687BBCFEF6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="64000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_ChoixNiveau_V1" ID="{17F01202-BBB5-4F22-A36D-72FBB4499A7E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1C5FB0E7-ACB1-4DEB-9DB9-5947CCD2900C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{28F19478-7953-4BF9-93AA-427A23D490B0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="64000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="MAIN_SCREEN" ID="{F33D2BBD-375B-4C33-A5B1-8D22427E511A}" ShortID="1019660239">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+								</Reference>
+								<Reference Name="PlaylistRoot">
+									<Custom>
+										<MusicPlaylistItem Name="" ID="{2E61301A-7FDC-41A2-88E7-035312060198}" ShortID="621687715">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{89F5D18A-E778-40C8-95AC-37C845B10665}" ShortID="654605823">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="MissionAetheria_MainScreen_V2" ID="{4A2C845F-E4D0-498A-ADBA-77BAFC34CED2}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Custom>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{96B6BD41-62A1-4B96-BDD0-BC79F0FFB6B9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{2FD7697E-276E-4CF4-B726-9113D7B04483}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="MissionAetheria_MainScreen_V2" ID="{4A2C845F-E4D0-498A-ADBA-77BAFC34CED2}" ShortID="404377432">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="230739.583333333"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CE2B3745-E6CC-4C6F-8376-0CBD41A4547A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="MissionAetheria_MainScreen_V2" ID="{CB8C16B5-7E08-42DB-A891-BEF0B298FB19}" ShortID="956894225">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2D723D80-B2B4-4F35-B48B-91BD587D4885}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{3F35E1CA-779F-4D14-BE2D-3C9172A499EB}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MissionAetheria_MainScreen_V2" ID="{FF2A568C-897A-413B-AF41-D7B7E64891D9}">
+													<Language>SFX</Language>
+													<AudioFile>MissionAetheria_MainScreen_V2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="779417505"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8F00ED8D-43B7-4331-84AC-A6A9B6CF9219}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="MissionAetheria_MainScreen_V2" ID="{4160E17E-3368-4915-9824-5946A4A6A87D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="230739.583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="MissionAetheria_MainScreen_V2" ID="{FF2A568C-897A-413B-AF41-D7B7E64891D9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7A2C70A3-374B-4D1F-BBF4-DF60A7FAE65F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{32043D0B-ED0A-42FE-8342-488AFD7897CC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="230739.583333333"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Arguments">
+							<Reference>
+								<ObjectRef Name="MusicState" ID="{03117505-D6A5-46FD-847A-B0B2689E4B3F}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="Entries">
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{10649288-80E5-4481-9D78-FDAAB8DD6EEB}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="Combat_Music" ID="{52695C46-2A35-4FCD-BE52-90D941DC5C26}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="COMBAT" ID="{FA700F23-940C-4FEF-AE96-5C7E010E4B65}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{9361583B-AB93-4395-9B17-87526EAE240E}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="MAIN_SCREEN" ID="{F33D2BBD-375B-4C33-A5B1-8D22427E511A}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="MENU" ID="{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{05E7F9E7-80E4-4A6D-A3FE-C79ED75932BD}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="CHOIX_NIVEAUX" ID="{FDD90B87-D214-4C62-82AD-DCE4995C78E4}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="STAGE_CHOICE" ID="{38D71C84-BB80-4146-AC8D-92B967F8C0A4}" WorkUnitID="{B8C4FB40-4152-4388-B037-27A9EE917333}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{D0240D71-BEF9-41CD-9A0E-AE9B889A88B1}" ShortID="215462860">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Music" ID="{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}" WorkUnitID="{F0C8B992-6AF4-4184-B1CD-2C3771F84C5A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{829B567C-3BAD-4F85-BA46-E04FD6A785E9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{983E479D-A34C-447E-A238-66DF84EC8F84}" ShortID="101659623">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="General" ID="{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}" WorkUnitID="{F0C8B992-6AF4-4184-B1CD-2C3771F84C5A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{1091171B-690C-4A9A-A317-4F1669D014FF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

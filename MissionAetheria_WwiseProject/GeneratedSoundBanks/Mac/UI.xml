@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1551306167" Type="User" GUID="{556D65DE-E108-496D-A0D1-97791900DA7F}" Language="SFX" Hash="{8FDBF2B9-FB03-765A-D0E6-EF30375388AE}">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="435590600" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_HOVER.wav</ShortName>
+					<CachePath>SFX/SFX_HOVER_818F3B66.wem</CachePath>
+				</File>
+				<File Id="725826441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_LOADING SCREEN.wav</ShortName>
+					<CachePath>SFX/SFX_LOADING SCREEN_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="852956337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_BUTTON CLICK.wav</ShortName>
+					<CachePath>SFX/SFX_BUTTON CLICK_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1046111637" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_RESEARCH SERVER.wav</ShortName>
+					<CachePath>SFX/SFX_RESEARCH SERVER_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1584507803" Name="Click" ObjectPath="\Events\Default Work Unit\UI\Click" GUID="{A7B33C16-87DA-458E-9B71-4E0086A2F849}" DurationType="OneShot" DurationMin="0.3" DurationMax="0.3">
+					<MediaRefs>
+						<MediaRef Id="852956337"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3753593413" Name="Hover" ObjectPath="\Events\Default Work Unit\UI\Hover" GUID="{2337207D-FFEB-4AA4-B3B3-8648A4AAA548}" DurationType="OneShot" DurationMin="0.48102084" DurationMax="0.48102084">
+					<MediaRefs>
+						<MediaRef Id="435590600"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="985442775" Name="LoadingScreen" ObjectPath="\Events\Default Work Unit\UI\LoadingScreen" GUID="{86C9EA8E-A190-45FB-AD7C-FA7C68A10653}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="725826441"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="734087243" Name="ResearchServer" ObjectPath="\Events\Default Work Unit\UI\ResearchServer" GUID="{833D4E99-BE61-4135-8330-14B9189F4162}" DurationType="OneShot" DurationMin="5.7674375" DurationMax="5.7674375">
+					<MediaRefs>
+						<MediaRef Id="1046111637"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="133642231" Name="General" ObjectPath="\Game Parameters\Default Work Unit\General" GUID="{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"/>
+				<GameParameter Id="393239870" Name="Sfx" ObjectPath="\Game Parameters\Default Work Unit\Sfx" GUID="{A131AE96-692E-4C05-9B82-8543483F4D51}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FBC82148-2438-E357-734E-7F0A1958049D}</FileHash>
+</SoundBanksInfo>

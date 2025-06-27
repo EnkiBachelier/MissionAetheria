@@ -1,0 +1,572 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1557941045",
+    "Type": "User",
+    "GUID": "{C25869C5-F92C-44B0-B572-0D1896DB6603}",
+    "Language": "SFX",
+    "Hash": "{6777A639-03F2-F21B-F191-FC42E71774AE}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters",
+    "ShortName": "Characters",
+    "Path": "Characters.bnk",
+    "Media": [
+     {
+      "Id": "160312615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "allies you attach to the plane.wav",
+      "CachePath": "SFX/allies you attach to the plane_818F3B66.wem"
+     },
+     {
+      "Id": "166798633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_War plane minigun (short)-2.wav",
+      "CachePath": "SFX/SFX_War plane minigun (short)-2_818F3B66.wem"
+     },
+     {
+      "Id": "181251505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FIRE_DAMAGE.wav",
+      "CachePath": "SFX/SFX_FIRE_DAMAGE_818F3B66.wem"
+     },
+     {
+      "Id": "248059316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME RELOAD.wav",
+      "CachePath": "SFX/SFX_FLAME RELOAD_818F3B66.wem"
+     },
+     {
+      "Id": "353986513",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_RIFFLE_TEK\\SFX_RIFFLE_TEK_001.wav",
+      "CachePath": "SFX/SFX_RIFFLE_TEK/SFX_RIFFLE_TEK_001_818F3B66.wem"
+     },
+     {
+      "Id": "401330048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME-2.wav",
+      "CachePath": "SFX/SFX_FLAME-2_818F3B66.wem"
+     },
+     {
+      "Id": "405506666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-3.wav",
+      "CachePath": "SFX/Sand walk-3_818F3B66.wem"
+     },
+     {
+      "Id": "429002998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_reloading minigun.wav",
+      "CachePath": "SFX/SFX_reloading minigun_818F3B66.wem"
+     },
+     {
+      "Id": "460966270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenade Impule.wav",
+      "CachePath": "SFX/Grenade Impule_818F3B66.wem"
+     },
+     {
+      "Id": "488214049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Reload Pisto.wav",
+      "CachePath": "SFX/Reload Pisto_818F3B66.wem"
+     },
+     {
+      "Id": "594340275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "futuriste spaceship.wav",
+      "CachePath": "SFX/futuriste spaceship_818F3B66.wem"
+     },
+     {
+      "Id": "652963083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-2.wav",
+      "CachePath": "SFX/Sand walk-2_818F3B66.wem"
+     },
+     {
+      "Id": "672002658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-5.wav",
+      "CachePath": "SFX/Sand walk-5_818F3B66.wem"
+     },
+     {
+      "Id": "706720408",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Loose PV.wav",
+      "CachePath": "SFX/Loose PV_818F3B66.wem"
+     },
+     {
+      "Id": "708280389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_SHIELD\\SFX_SHIELD.wav",
+      "CachePath": "SFX/SFX_SHIELD/SFX_SHIELD_818F3B66.wem"
+     },
+     {
+      "Id": "849477051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_IEM\\SFX_IEM_1.wav",
+      "CachePath": "SFX/SFX_IEM/SFX_IEM_1_818F3B66.wem"
+     },
+     {
+      "Id": "856335120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grab.wav",
+      "CachePath": "SFX/Grab_818F3B66.wem"
+     },
+     {
+      "Id": "944662409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_RIFFLE_TEK_RELOAD\\SFX_RIFFLE_TEK_REALOAD_001.wav",
+      "CachePath": "SFX/SFX_RIFFLE_TEK_RELOAD/SFX_RIFFLE_TEK_REALOAD_001_818F3B66.wem"
+     },
+     {
+      "Id": "963354868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Precision Riffle Shoot.wav",
+      "CachePath": "SFX/Precision Riffle Shoot_818F3B66.wem"
+     },
+     {
+      "Id": "983757718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk.wav",
+      "CachePath": "SFX/Sand walk_818F3B66.wem"
+     },
+     {
+      "Id": "1000205410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME MAX.wav",
+      "CachePath": "SFX/SFX_FLAME MAX_818F3B66.wem"
+     },
+     {
+      "Id": "1005209352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_war plane missiles.wav",
+      "CachePath": "SFX/SFX_war plane missiles_818F3B66.wem"
+     },
+     {
+      "Id": "1022788264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-4.wav",
+      "CachePath": "SFX/Sand walk-4_818F3B66.wem"
+     },
+     {
+      "Id": "1055985146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot Pistol.wav",
+      "CachePath": "SFX/Shoot Pistol_818F3B66.wem"
+     },
+     {
+      "Id": "1059108405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Precision Riffle Reload.wav",
+      "CachePath": "SFX/Precision Riffle Reload_818F3B66.wem"
+     },
+     {
+      "Id": "1073377498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Reffil canister.wav",
+      "CachePath": "SFX/Reffil canister_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2987024503",
+      "Name": "Play_allies_you_attach_to_the_plane",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_allies_you_attach_to_the_plane",
+      "GUID": "{2A8DD7AF-0221-4098-B827-7B78528E6075}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4605625",
+      "DurationMax": "2.4605625",
+      "MediaRefs": [
+       {
+        "Id": "160312615"
+       }
+      ]
+     },
+     {
+      "Id": "3820612474",
+      "Name": "Play_futuriste_spaceship",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_futuriste_spaceship",
+      "GUID": "{D96F64A4-C5F2-44FA-A38B-FEA54B939B56}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "16.79277",
+      "DurationMax": "16.79277",
+      "MediaRefs": [
+       {
+        "Id": "594340275"
+       }
+      ]
+     },
+     {
+      "Id": "17721092",
+      "Name": "Play_Grab",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\SFX_GeneralOC\\Play_Grab",
+      "GUID": "{F71F3E3D-D69B-435C-A531-B65578FD2113}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4510833",
+      "DurationMax": "1.4510833",
+      "MediaRefs": [
+       {
+        "Id": "856335120"
+       }
+      ]
+     },
+     {
+      "Id": "44967137",
+      "Name": "Play_Grenade_Impule",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Grenade_Impule",
+      "GUID": "{F23551C3-DA5D-4006-BDA0-888F7ADDA98F}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "460966270"
+       }
+      ]
+     },
+     {
+      "Id": "2558150165",
+      "Name": "Play_IEM",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_IEM",
+      "GUID": "{04C8635B-A0D1-4DB3-AAF2-973AF2B14D32}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9724374",
+      "DurationMax": "2.9724374",
+      "MediaRefs": [
+       {
+        "Id": "849477051"
+       }
+      ]
+     },
+     {
+      "Id": "4183432593",
+      "Name": "Play_Loose_PV",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\SFX_GeneralOC\\Play_Loose_PV",
+      "GUID": "{5E970D07-3222-4861-B8C2-E8B6F18BEA40}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.0773125",
+      "DurationMax": "0.0773125",
+      "MediaRefs": [
+       {
+        "Id": "706720408"
+       }
+      ]
+     },
+     {
+      "Id": "2013199493",
+      "Name": "Play_Precision_Riffle_Reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Precision_Riffle_Reload",
+      "GUID": "{7F3BCDBA-9F5B-4554-A917-CF96D7D52995}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1",
+      "DurationMax": "1.1",
+      "MediaRefs": [
+       {
+        "Id": "1059108405"
+       }
+      ]
+     },
+     {
+      "Id": "3480651491",
+      "Name": "Play_Precision_Riffle_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Precision_Riffle_Shoot",
+      "GUID": "{F3789561-F0AA-4C2F-B873-5190EECED93A}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5162396",
+      "DurationMax": "2.5162396",
+      "MediaRefs": [
+       {
+        "Id": "963354868"
+       }
+      ]
+     },
+     {
+      "Id": "4044062098",
+      "Name": "Play_Reffil_canister",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Reffil_canister",
+      "GUID": "{84249655-4274-442E-A60D-A9F210C20E9C}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0734062",
+      "DurationMax": "1.0734062",
+      "MediaRefs": [
+       {
+        "Id": "1073377498"
+       }
+      ]
+     },
+     {
+      "Id": "974101127",
+      "Name": "Play_Reload_Pisto",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Reload_Pisto",
+      "GUID": "{37E62392-FD02-41A4-8392-5126DDDA7DF8}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.50245833",
+      "DurationMax": "0.50245833",
+      "MediaRefs": [
+       {
+        "Id": "488214049"
+       }
+      ]
+     },
+     {
+      "Id": "1397789247",
+      "Name": "Play_Riffle_tek_reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_Riffle_tek_reload",
+      "GUID": "{48F23801-968B-44FE-ADC0-804A00BD96CE}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8186667",
+      "DurationMax": "1.8186667",
+      "MediaRefs": [
+       {
+        "Id": "944662409"
+       }
+      ]
+     },
+     {
+      "Id": "78625330",
+      "Name": "Play_SandWalkRandom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Play_SandWalkRandom",
+      "GUID": "{530C4121-EB94-4425-84DC-896307DEF3EF}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6230417",
+      "DurationMax": "0.9470208",
+      "MediaRefs": [
+       {
+        "Id": "405506666"
+       },
+       {
+        "Id": "652963083"
+       },
+       {
+        "Id": "672002658"
+       },
+       {
+        "Id": "983757718"
+       },
+       {
+        "Id": "1022788264"
+       }
+      ]
+     },
+     {
+      "Id": "4128796527",
+      "Name": "Play_SFX_FLAME",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME",
+      "GUID": "{FC26BE06-858F-413B-9C76-EC7781CDF097}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9005",
+      "DurationMax": "0.9005",
+      "MediaRefs": [
+       {
+        "Id": "401330048"
+       }
+      ]
+     },
+     {
+      "Id": "1714743432",
+      "Name": "Play_SFX_FLAME_MAX",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME_MAX",
+      "GUID": "{0BA9591F-93E5-4F4F-9A4C-34D3E56C6AE1}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "8.830438",
+      "DurationMax": "8.830438",
+      "MediaRefs": [
+       {
+        "Id": "1000205410"
+       }
+      ]
+     },
+     {
+      "Id": "668128633",
+      "Name": "Play_SFX_FLAME_RELOAD",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME_RELOAD",
+      "GUID": "{CCF53D8E-AFCF-4330-A27B-F3EF2E006CAB}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.7142916",
+      "DurationMax": "4.7142916",
+      "MediaRefs": [
+       {
+        "Id": "248059316"
+       }
+      ]
+     },
+     {
+      "Id": "3785441767",
+      "Name": "Play_SFX_reloading_minigun",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_reloading_minigun",
+      "GUID": "{5887F9E6-144D-44AF-8C84-C0F3C337DD93}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3494375",
+      "DurationMax": "3.3494375",
+      "MediaRefs": [
+       {
+        "Id": "429002998"
+       }
+      ]
+     },
+     {
+      "Id": "2802293557",
+      "Name": "Play_SFX_SHIELD",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_SFX_SHIELD",
+      "GUID": "{3547BF0C-395C-46CD-81F0-04BC44116840}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8643541",
+      "DurationMax": "2.8643541",
+      "MediaRefs": [
+       {
+        "Id": "708280389"
+       }
+      ]
+     },
+     {
+      "Id": "2794699763",
+      "Name": "Play_SFX_War_plane_minigun",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_War_plane_minigun",
+      "GUID": "{0B5E6D0F-806E-476D-A80A-374D760E9F76}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.048479166",
+      "DurationMax": "0.048479166",
+      "MediaRefs": [
+       {
+        "Id": "166798633"
+       }
+      ]
+     },
+     {
+      "Id": "2024969657",
+      "Name": "Play_SFX_war_plane_missiles",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_war_plane_missiles",
+      "GUID": "{CCF92062-E233-43E2-BCF7-3F61A884AF0D}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.0451665",
+      "DurationMax": "5.0451665",
+      "MediaRefs": [
+       {
+        "Id": "1005209352"
+       }
+      ]
+     },
+     {
+      "Id": "3309102655",
+      "Name": "Play_Shoot_Pistol",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Shoot_Pistol",
+      "GUID": "{4378A9EA-7F82-4F8B-B642-949CE3F87B67}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6",
+      "DurationMax": "1.6",
+      "MediaRefs": [
+       {
+        "Id": "1055985146"
+       }
+      ]
+     },
+     {
+      "Id": "3259068271",
+      "Name": "Play_Tek_riffle",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_Tek_riffle",
+      "GUID": "{D36CC63D-6DF4-4D51-B81B-406AD02127EC}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7254374",
+      "DurationMax": "2.7254374",
+      "MediaRefs": [
+       {
+        "Id": "353986513"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{919BF88C-D4FF-F930-B154-93DB32E8089B}"
+ }
+}

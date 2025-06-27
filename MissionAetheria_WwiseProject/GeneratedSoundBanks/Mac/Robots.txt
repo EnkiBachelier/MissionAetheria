@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	237278765	Play_little_robot_run			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_run	
+	239544544	Play_little_robot_die			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_die	
+	1087334990	Play_medium_impact_05			\Default Work Unit\SFX_Robots\MiddleRobot\Play_medium_impact_05	
+	1258179133	Play_little_robot_walk			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_walk	
+	1499117576	Play_little_robot_kick			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_kick	
+	1510861002	Play_little_robot_in_fire			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_in_fire	
+	2209457350	Play_little_robot_punch			\Default Work Unit\SFX_Robots\LittleRobot\Play_little_robot_punch	
+	2376340741	Play_robot_shot			\Default Work Unit\SFX_Robots\MiddleRobot\Play_robot_shot	
+	3374342471	Play_SFX_INFECTED_ROBOT			\Default Work Unit\SFX_Robots\Play_SFX_INFECTED_ROBOT	
+	4234778556	Play_RobotWalkRandom			\Default Work Unit\SFX_Robots\Play_RobotWalkRandom	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	133642231	General			\Default Work Unit\General	
+	393239870	Sfx			\Default Work Unit\Sfx	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1265647	robot shot	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\medium robot\robot shot_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\medium robot\robot shot		153324
+	141911708	little robot walk-3	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\little robot walk-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\RobotWalkRandom\little robot walk-3		168848
+	290411853	little robot run	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Little robot\little robot run_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\Little robot\little robot run		809852
+	419616404	little robot walk	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\little robot walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\RobotWalkRandom\little robot walk		153620
+	741900422	little robot punch	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Little robot\little robot punch_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\Little robot\little robot punch		155172
+	808793640	little robot walk-2	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\little robot walk-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\RobotWalkRandom\little robot walk-2		192532
+	814400432	medium impact 05	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\medium robot\medium impact 05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\medium robot\medium impact 05		119660
+	918872951	SFX_INFECTED_ROBOT	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_INFECTED_ROBOT_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\SFX_INFECTED_ROBOT		892536
+	930588981	little robot kick	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Little robot\little robot kick_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\Little robot\little robot kick		242540
+	1052039144	little robot die	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Little robot\little robot die_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\Little robot\little robot die		361968
+	1067545196	little robot in fire	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Little robot\little robot in fire_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\ROBOTS\SFX_ROBOTS\Little robot\little robot in fire		702648
+

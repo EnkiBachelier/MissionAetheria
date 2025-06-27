@@ -1,0 +1,278 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2494382374",
+    "Type": "User",
+    "GUID": "{CA56BE31-6BD9-4632-B6E1-6C53427BBBB1}",
+    "Language": "SFX",
+    "Hash": "{5485F13B-D1A6-4C3F-1D4F-5DB24D762346}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Robots",
+    "ShortName": "Robots",
+    "Path": "Robots.bnk",
+    "Media": [
+     {
+      "Id": "1265647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "medium robot\\robot shot.wav",
+      "CachePath": "SFX/medium robot/robot shot_818F3B66.wem"
+     },
+     {
+      "Id": "141911708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk-3.wav",
+      "CachePath": "SFX/little robot walk-3_818F3B66.wem"
+     },
+     {
+      "Id": "290411853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot run.wav",
+      "CachePath": "SFX/Little robot/little robot run_818F3B66.wem"
+     },
+     {
+      "Id": "419616404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk.wav",
+      "CachePath": "SFX/little robot walk_818F3B66.wem"
+     },
+     {
+      "Id": "741900422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot punch.wav",
+      "CachePath": "SFX/Little robot/little robot punch_818F3B66.wem"
+     },
+     {
+      "Id": "808793640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk-2.wav",
+      "CachePath": "SFX/little robot walk-2_818F3B66.wem"
+     },
+     {
+      "Id": "814400432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "medium robot\\medium impact 05.wav",
+      "CachePath": "SFX/medium robot/medium impact 05_818F3B66.wem"
+     },
+     {
+      "Id": "918872951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_INFECTED_ROBOT.wav",
+      "CachePath": "SFX/SFX_INFECTED_ROBOT_818F3B66.wem"
+     },
+     {
+      "Id": "930588981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot kick.wav",
+      "CachePath": "SFX/Little robot/little robot kick_818F3B66.wem"
+     },
+     {
+      "Id": "1052039144",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot die.wav",
+      "CachePath": "SFX/Little robot/little robot die_818F3B66.wem"
+     },
+     {
+      "Id": "1067545196",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot in fire.wav",
+      "CachePath": "SFX/Little robot/little robot in fire_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "239544544",
+      "Name": "Play_little_robot_die",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_die",
+      "GUID": "{CA11780E-37AA-4B83-8BFB-D59400EBC2DC}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.88475",
+      "DurationMax": "1.88475",
+      "MediaRefs": [
+       {
+        "Id": "1052039144"
+       }
+      ]
+     },
+     {
+      "Id": "1510861002",
+      "Name": "Play_little_robot_in_fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_in_fire",
+      "GUID": "{0DB407E2-8576-4D7C-8432-C29975FAFA7B}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.659125",
+      "DurationMax": "3.659125",
+      "MediaRefs": [
+       {
+        "Id": "1067545196"
+       }
+      ]
+     },
+     {
+      "Id": "1499117576",
+      "Name": "Play_little_robot_kick",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_kick",
+      "GUID": "{CC2A8171-9C6F-4F81-A7F4-4D5638528AE8}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2627292",
+      "DurationMax": "1.2627292",
+      "MediaRefs": [
+       {
+        "Id": "930588981"
+       }
+      ]
+     },
+     {
+      "Id": "2209457350",
+      "Name": "Play_little_robot_punch",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_punch",
+      "GUID": "{E8B2A784-E8FC-4199-8C49-106F35B1F81C}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8076875",
+      "DurationMax": "0.8076875",
+      "MediaRefs": [
+       {
+        "Id": "741900422"
+       }
+      ]
+     },
+     {
+      "Id": "237278765",
+      "Name": "Play_little_robot_run",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_run",
+      "GUID": "{87CC78C1-CA58-4104-8642-8A4464045539}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.217479",
+      "DurationMax": "4.217479",
+      "MediaRefs": [
+       {
+        "Id": "290411853"
+       }
+      ]
+     },
+     {
+      "Id": "1258179133",
+      "Name": "Play_little_robot_walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_walk",
+      "GUID": "{E6255F7E-20D6-4134-B6D4-E010942E83E6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1087334990",
+      "Name": "Play_medium_impact_05",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\MiddleRobot\\Play_medium_impact_05",
+      "GUID": "{8696D986-18CC-4753-B10B-BBCEF1CF8B7B}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6227292",
+      "DurationMax": "0.6227292",
+      "MediaRefs": [
+       {
+        "Id": "814400432"
+       }
+      ]
+     },
+     {
+      "Id": "2376340741",
+      "Name": "Play_robot_shot",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\MiddleRobot\\Play_robot_shot",
+      "GUID": "{CAAA7A38-AFB5-4063-A90D-C8201AEE2FDA}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7980625",
+      "DurationMax": "0.7980625",
+      "MediaRefs": [
+       {
+        "Id": "1265647"
+       }
+      ]
+     },
+     {
+      "Id": "4234778556",
+      "Name": "Play_RobotWalkRandom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\Play_RobotWalkRandom",
+      "GUID": "{6FA06295-8149-4FB7-B525-4CC6658475EF}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7996042",
+      "DurationMax": "1.0022708",
+      "MediaRefs": [
+       {
+        "Id": "141911708"
+       },
+       {
+        "Id": "419616404"
+       },
+       {
+        "Id": "808793640"
+       }
+      ]
+     },
+     {
+      "Id": "3374342471",
+      "Name": "Play_SFX_INFECTED_ROBOT",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\Play_SFX_INFECTED_ROBOT",
+      "GUID": "{7E50E3A7-2276-4B88-A86A-EA4A8A333920}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.648125",
+      "DurationMax": "4.648125",
+      "MediaRefs": [
+       {
+        "Id": "918872951"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{90732EDD-CA81-2710-3047-45574070FDC2}"
+ }
+}

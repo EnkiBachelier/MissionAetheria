@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0C8B992-6AF4-4184-B1CD-2C3771F84C5A}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F0C8B992-6AF4-4184-B1CD-2C3771F84C5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="General" ID="{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"/>
+				<GameParameter Name="Sfx" ID="{A131AE96-692E-4C05-9B82-8543483F4D51}"/>
+				<GameParameter Name="Music" ID="{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}"/>
+				<GameParameter Name="Voiceline" ID="{94D08BFA-C1C6-42E7-9FF7-D74547FCCE28}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

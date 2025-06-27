@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5439E240-3980-4913-907D-A029E2925EBD}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5439E240-3980-4913-907D-A029E2925EBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Voiceline" ID="{6C9799C7-DA53-46A0-9F85-5E69B2E63C0B}">
+					<ChildrenList>
+						<Action Name="" ID="{A2F502FF-407E-423C-AAB0-D3C8E0FD590A}" ShortID="774439200">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roles" ID="{B6EDE3E5-1551-4CCF-8658-8C8F3E7252FF}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="UI" ID="{6C272932-E867-433F-AB58-1C2876498F11}" ShortID="101359233">
+					<ChildrenList>
+						<Event Name="Click" ID="{A7B33C16-87DA-458E-9B71-4E0086A2F849}">
+							<ChildrenList>
+								<Action Name="" ID="{626D2BC8-1C96-49D5-B4FF-A0BCE1DE7715}" ShortID="538652357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_BUTTON CLICK" ID="{3CEB53F2-1AC7-4211-BF52-1CDE7C2F2C69}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hover" ID="{2337207D-FFEB-4AA4-B3B3-8648A4AAA548}">
+							<ChildrenList>
+								<Action Name="" ID="{5F19F67E-E329-4747-9EA8-53B324A97196}" ShortID="642504272">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_HOVER" ID="{70010325-9650-410C-8312-13B967F5A328}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="LoadingScreen" ID="{86C9EA8E-A190-45FB-AD7C-FA7C68A10653}">
+							<ChildrenList>
+								<Action Name="" ID="{B4B93FA7-7BC4-40A7-99E4-9B85F8C7A5F9}" ShortID="945063092">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_LOADING SCREEN" ID="{357D732C-A2E1-4F8E-ADC7-749C8DAD1789}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ResearchServer" ID="{833D4E99-BE61-4135-8330-14B9189F4162}">
+							<ChildrenList>
+								<Action Name="" ID="{F3756F34-92EA-453C-9647-7496B169726E}" ShortID="709447739">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_RESEARCH SERVER" ID="{D64C7805-8024-4D5E-86AB-FAFD8D7AB64A}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Music" ID="{D64F318B-9293-48C5-B0DC-53709BC51E8F}">
+					<ChildrenList>
+						<Action Name="" ID="{477FDE58-8FB2-4FAD-9A4F-4F2BB9E1B76E}" ShortID="18262613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_State" ID="{46773F71-A4DD-450B-9A35-1FAFBEDD7DE2}" WorkUnitID="{644E6718-6EE9-42E5-A0BC-E5F4C58A4C49}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="SFX_Character" ID="{B8EE77BF-EF79-4C52-9620-803572A2F377}" ShortID="110883015">
+					<ChildrenList>
+						<Folder Name="Spaceship" ID="{3017CB5C-09BB-4F57-B77C-65AAACC2E020}" ShortID="428217266"/>
+						<Folder Name="Weapons" ID="{3D6EFFC2-22FC-4EF0-942F-5F23541BB6F0}" ShortID="577024385"/>
+						<Event Name="Play_SandWalkRandom" ID="{530C4121-EB94-4425-84DC-896307DEF3EF}">
+							<ChildrenList>
+								<Action Name="" ID="{E8E823B5-1EC0-473E-9C5F-AED092F8D654}" ShortID="941527396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SandWalkRandom" ID="{349C2603-66D3-4132-88CF-6140D4B0BE43}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Hacker" ID="{87AF2114-ED82-4273-AD3B-30E07FB249C4}" ShortID="825482531">
+							<ChildrenList>
+								<Event Name="Play_Riffle_tek_reload" ID="{48F23801-968B-44FE-ADC0-804A00BD96CE}">
+									<ChildrenList>
+										<Action Name="" ID="{EF575B53-29DE-45FF-9836-F603F3ED6035}" ShortID="460195343">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_RIFFLE_TEK_REALOAD_001" ID="{3FF05072-289D-481B-9187-280943FA417A}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Tek_riffle" ID="{D36CC63D-6DF4-4D51-B81B-406AD02127EC}">
+									<ChildrenList>
+										<Action Name="" ID="{0D0BC195-099B-4938-BDEF-A6FD69B946F9}" ShortID="1034428824">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_RIFFLE_TEK_001" ID="{6B15EED9-D322-40B0-9B56-43E933D6BCF0}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_IEM" ID="{04C8635B-A0D1-4DB3-AAF2-973AF2B14D32}">
+									<ChildrenList>
+										<Action Name="" ID="{F12D52A2-BAEE-4B9F-AEF9-CACB85F99DB6}" ShortID="937543632">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_IEM_1" ID="{9874D6C1-AE65-476C-A75C-82A8166845CC}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_SHIELD" ID="{3547BF0C-395C-46CD-81F0-04BC44116840}">
+									<ChildrenList>
+										<Action Name="" ID="{25965FAE-DC68-4B3C-94C1-628BB28A506C}" ShortID="121929782">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_SHIELD" ID="{573FB5D9-27CA-45EE-A58C-668041385485}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Medic" ID="{E1563645-7AA6-4509-99F2-2E690FC97F0D}" ShortID="10099162">
+							<ChildrenList>
+								<Event Name="Play_Shoot_Pistol" ID="{4378A9EA-7F82-4F8B-B642-949CE3F87B67}">
+									<ChildrenList>
+										<Action Name="" ID="{70417976-8B91-4460-9286-E78DC62C8AC5}" ShortID="953982949">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shoot Pistol" ID="{CFD838BF-F52D-4C5C-AB7B-137DE2FB8F71}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Reload_Pisto" ID="{37E62392-FD02-41A4-8392-5126DDDA7DF8}">
+									<ChildrenList>
+										<Action Name="" ID="{58BF0BDD-C6D2-4CF9-9347-0DF103138F86}" ShortID="716259121">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Reload Pisto" ID="{18261962-0D6C-4ACF-958E-7075642C5ADC}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Reffil_canister" ID="{84249655-4274-442E-A60D-A9F210C20E9C}">
+									<ChildrenList>
+										<Action Name="" ID="{C66D0DD4-D117-4997-947A-AA7A528FA9C5}" ShortID="545119014">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Reffil canister" ID="{ABDE0223-DB5E-44E0-8209-9E4CD7743441}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pilot" ID="{1BBD0BDF-5792-4C4D-A7FB-F9E5D1DA2CE9}" ShortID="201051422">
+							<ChildrenList>
+								<Event Name="Play_SFX_reloading_minigun" ID="{5887F9E6-144D-44AF-8C84-C0F3C337DD93}">
+									<ChildrenList>
+										<Action Name="" ID="{2F6B1C2C-E9A2-4032-8D36-0E015FF09DA5}" ShortID="768324356">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_reloading minigun" ID="{4E089561-7537-434B-909B-3593167528B5}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_War_plane_minigun" ID="{0B5E6D0F-806E-476D-A80A-374D760E9F76}">
+									<ChildrenList>
+										<Action Name="" ID="{1985CB68-F2E7-4E61-A51C-37519BB239AE}" ShortID="1062209319">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_War plane minigun" ID="{55BAF0D9-0F9F-4CB5-9648-7C7149E2B5DD}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_futuriste_spaceship" ID="{D96F64A4-C5F2-44FA-A38B-FEA54B939B56}">
+									<ChildrenList>
+										<Action Name="" ID="{24CF88AE-E423-44CB-99AF-2FAF2ED9695F}" ShortID="754782447">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="futuriste spaceship" ID="{8F79AFAF-30A7-4243-AE83-D207C88D90A0}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_allies_you_attach_to_the_plane" ID="{2A8DD7AF-0221-4098-B827-7B78528E6075}">
+									<ChildrenList>
+										<Action Name="" ID="{05721FA5-42C9-4690-85FB-3B61DA79009B}" ShortID="848712335">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="allies you attach to the plane" ID="{301E164C-32CB-4CF6-A3DA-0A552BA9EF5F}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_war_plane_missiles" ID="{CCF92062-E233-43E2-BCF7-3F61A884AF0D}">
+									<ChildrenList>
+										<Action Name="" ID="{DD8C7CC6-1A47-4999-9BCE-359CED964BCF}" ShortID="1063342577">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_war plane missiles" ID="{2E0B4A81-DC52-4901-8BFB-F02C4E27C322}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pyromaniac" ID="{251DEFD2-4BA1-4648-9B9F-8863A7DB702D}" ShortID="264753310">
+							<ChildrenList>
+								<Event Name="Play_SFX_FLAME" ID="{FC26BE06-858F-413B-9C76-EC7781CDF097}">
+									<ChildrenList>
+										<Action Name="" ID="{FDA19AC2-76DD-41A9-8BD4-8AF52EFFA132}" ShortID="111538372">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_FLAME" ID="{5EB4229B-0064-4B25-A892-F97CF5BB788A}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_FLAME_RELOAD" ID="{CCF53D8E-AFCF-4330-A27B-F3EF2E006CAB}">
+									<ChildrenList>
+										<Action Name="" ID="{3BC6E7AA-C791-4A28-A17F-678ABAF87CE1}" ShortID="134858167">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_FLAME RELOAD" ID="{B27FCE0F-4F68-4CAC-9ED6-0762A6B51095}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_FLAME_MAX" ID="{0BA9591F-93E5-4F4F-9A4C-34D3E56C6AE1}">
+									<ChildrenList>
+										<Action Name="" ID="{6F8C78F5-3359-41A3-8086-A3C0D1FE2158}" ShortID="920213891">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_FLAME MAX" ID="{41D68684-0009-4D51-AAF9-757AEF729DF8}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Sniper" ID="{3192D609-F1D7-411D-8B90-E8EFE87D6A3C}" ShortID="460168156">
+							<ChildrenList>
+								<Event Name="Play_Precision_Riffle_Reload" ID="{7F3BCDBA-9F5B-4554-A917-CF96D7D52995}">
+									<ChildrenList>
+										<Action Name="" ID="{74082B9D-19F4-425D-BE1D-488F2381DD3C}" ShortID="323003952">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Precision Riffle Reload" ID="{D2F8C73F-5DDA-4CB4-97FF-87C4B2634509}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Precision_Riffle_Shoot" ID="{F3789561-F0AA-4C2F-B873-5190EECED93A}">
+									<ChildrenList>
+										<Action Name="" ID="{ED4404CB-193B-49E6-80EF-189B88F83681}" ShortID="250508523">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Precision Riffle Shoot" ID="{642D689E-729D-4DBE-A6C7-0448BEB84A9F}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenade_Impule" ID="{F23551C3-DA5D-4006-BDA0-888F7ADDA98F}">
+									<ChildrenList>
+										<Action Name="" ID="{99F9A21B-4793-4C0E-B2B3-3C81AFB51944}" ShortID="641983005">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenade Impule" ID="{2F56FDDC-9A67-416E-B73E-E909CF2F5FD0}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX_GeneralOC" ID="{68AF773C-32E3-45ED-B30D-1F1194475AE9}" ShortID="182960856">
+							<ChildrenList>
+								<Event Name="Play_Grab" ID="{F71F3E3D-D69B-435C-A531-B65578FD2113}">
+									<ChildrenList>
+										<Action Name="" ID="{406B6D7C-311B-4E74-80B1-57D2F47701F3}" ShortID="499859354">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grab" ID="{9B2E8C1A-397D-4F04-A83A-568A4A969532}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Loose_PV" ID="{5E970D07-3222-4861-B8C2-E8B6F18BEA40}">
+									<ChildrenList>
+										<Action Name="" ID="{697D272D-5E86-4205-98D1-A4BB1055F768}" ShortID="628333666">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Loose PV" ID="{0294FF2A-0C7A-4A8A-9CBF-E10352A2C4F9}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SFX_Robots" ID="{D01AA0AE-380D-4A9B-AB59-2E0140DD996E}" ShortID="639067249">
+					<ChildrenList>
+						<Folder Name="LittleRobot" ID="{D9E65666-59D6-45D7-B082-C865373453D2}" ShortID="71464550">
+							<ChildrenList>
+								<Event Name="Play_little_robot_walk" ID="{E6255F7E-20D6-4134-B6D4-E010942E83E6}">
+									<ChildrenList>
+										<Action Name="" ID="{2CC25DAC-04C1-48C8-9DAE-BA62F75FC127}" ShortID="5093846">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot walk" ID="{45F380EA-67FD-41C7-9891-338643D8123E}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_little_robot_die" ID="{CA11780E-37AA-4B83-8BFB-D59400EBC2DC}">
+									<ChildrenList>
+										<Action Name="" ID="{0C1C180A-4316-4418-85C7-93A04F0C3173}" ShortID="264233343">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot die" ID="{F1EC985F-9919-4975-918F-51C53ABDABAC}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_little_robot_run" ID="{87CC78C1-CA58-4104-8642-8A4464045539}">
+									<ChildrenList>
+										<Action Name="" ID="{01F29720-552B-4129-BB80-78D0009C01FE}" ShortID="704893038">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot run" ID="{F337D518-D8EA-4C5D-A54B-E9C38FEA197B}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_little_robot_in_fire" ID="{0DB407E2-8576-4D7C-8432-C29975FAFA7B}">
+									<ChildrenList>
+										<Action Name="" ID="{7000EAE8-D2E0-4E65-81C7-68FC6319BCB7}" ShortID="267251355">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot in fire" ID="{3CA42D12-E0F4-4B7A-9027-B337E5646105}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_little_robot_kick" ID="{CC2A8171-9C6F-4F81-A7F4-4D5638528AE8}">
+									<ChildrenList>
+										<Action Name="" ID="{94A1B39C-85F2-4124-8530-146C3C2B85AD}" ShortID="718122472">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot kick" ID="{7034C385-9D78-4B89-9AD3-88A55135F431}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_little_robot_punch" ID="{E8B2A784-E8FC-4199-8C49-106F35B1F81C}">
+									<ChildrenList>
+										<Action Name="" ID="{EA7A3772-0467-412A-A95B-7C96CFFB1E88}" ShortID="595648343">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="little robot punch" ID="{99D5ABA1-179A-4DD1-9F26-A6F59F2B9B10}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="MiddleRobot" ID="{F1E67892-0174-4984-BCEC-6568BA30CEA7}" ShortID="725988453">
+							<ChildrenList>
+								<Event Name="Play_medium_impact_05" ID="{8696D986-18CC-4753-B10B-BBCEF1CF8B7B}">
+									<ChildrenList>
+										<Action Name="" ID="{0D726D84-46AB-4CCC-AA14-AE81B02A4815}" ShortID="902352555">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="medium impact 05" ID="{A26B89FC-F443-4DD1-A2E9-5FB70491E5C3}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_robot_shot" ID="{CAAA7A38-AFB5-4063-A90D-C8201AEE2FDA}">
+									<ChildrenList>
+										<Action Name="" ID="{CA941448-7F53-4CB4-9448-220C6F47B5A2}" ShortID="158657459">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="robot shot" ID="{C593593F-72FF-4857-9A12-4EA9F2A6B8DA}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_SFX_INFECTED_ROBOT" ID="{7E50E3A7-2276-4B88-A86A-EA4A8A333920}">
+							<ChildrenList>
+								<Action Name="" ID="{1081DFD1-99D6-40C4-9D6A-202F5B4108DB}" ShortID="1025433581">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_INFECTED_ROBOT" ID="{743EB4E1-13A2-4A80-9D12-0C04DC38C41D}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RobotWalkRandom" ID="{6FA06295-8149-4FB7-B525-4CC6658475EF}">
+							<ChildrenList>
+								<Action Name="" ID="{346605A0-FC74-40B0-8EFB-4C55C6ACE3AF}" ShortID="4105526">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RobotWalkRandom" ID="{84AD532D-BB09-447E-BABD-D841655A5739}" WorkUnitID="{808E341B-F38E-466F-AB9E-19A695CD2FF2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

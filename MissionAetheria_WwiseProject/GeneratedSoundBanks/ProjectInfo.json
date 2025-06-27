@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "MissionAetheria_WwiseProject",
+   "GUID": "{F8FA8613-E8E2-4E3C-839E-69F3BCD82AB3}",
+   "Generator": "2023.1.8.8601"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{31E7FF33-6B23-4EA9-BC03-4F5E7676CEC1}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{92A0F49C-73E2-451F-9B71-B63E3CD54834}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{28BE772A-FB65-4686-BCDF-6DA82421E76A}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{01ECC949-8933-C9CC-F176-5E649F9114F4}"
+ }
+}

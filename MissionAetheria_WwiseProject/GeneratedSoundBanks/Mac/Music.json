@@ -1,0 +1,352 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{57B7F9E4-492B-496A-8F1A-CDF794812594}",
+    "Language": "SFX",
+    "Hash": "{8A59C962-B02F-738E-7031-83762C9C0CF2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "65559052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOSING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOSING_V4_69EBCF53.wem"
+     },
+     {
+      "Id": "285974634",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOST_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOST_V4_90F163F6.wem"
+     },
+     {
+      "Id": "470330310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_NORMALtoLOSING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_NORMALtoLOSING_V4_F895A9A8.wem"
+     },
+     {
+      "Id": "514355989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_WON_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_WON_V4_C4E60D56.wem"
+     },
+     {
+      "Id": "587551040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_WINING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_WINING_V4_1EAB9E91.wem"
+     },
+     {
+      "Id": "595490260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4_EEB8967D.wem"
+     },
+     {
+      "Id": "677109015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_NORMAL_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_NORMAL_V4_C4E60D56.wem"
+     },
+     {
+      "Id": "779417505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_MainScreen_V2.wav",
+      "CachePath": "SFX/MissionAetheria_MainScreen_V2_FBC78EF0.wem"
+     },
+     {
+      "Id": "794644685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_INTRO_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_INTRO_V4_0BC1EC11.wem"
+     },
+     {
+      "Id": "1003862042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_ChoixNiveau_V1.wav",
+      "CachePath": "SFX/MissionAetheria_ChoixNiveau_V1_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music",
+      "GUID": "{D64F318B-9293-48C5-B0DC-53709BC51E8F}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "2764240573",
+         "GUID": "{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1125500713",
+           "GUID": "{19162A02-3135-4733-8270-B3B7648B5031}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "794644685"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1160234136",
+           "GUID": "{BD137C15-F693-4D49-B360-8C2C9FCB1422}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "677109015"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "221232711",
+           "GUID": "{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "285974634"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "335549223",
+           "GUID": "{49964DFC-1A17-4625-8059-142CB79D82E4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "65559052"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "2996998095",
+           "GUID": "{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "587551040"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1080430619",
+           "GUID": "{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "514355989"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1007798069",
+           "GUID": "{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "470330310"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1617319613",
+           "GUID": "{725E7E15-B490-43E8-94EA-DF16874D9CCA}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "595490260"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "2607556080",
+         "GUID": "{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "779417505"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "1523385933",
+         "GUID": "{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1003862042"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MusicState",
+      "GUID": "{03117505-D6A5-46FD-847A-B0B2689E4B3F}",
+      "Switches": [
+       {
+        "Id": "1523385933",
+        "Name": "STAGE_CHOICE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\STAGE_CHOICE",
+        "GUID": "{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "MENU",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\MENU",
+        "GUID": "{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "COMBAT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\COMBAT",
+        "GUID": "{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"
+       }
+      ]
+     },
+     {
+      "Id": "1071758680",
+      "Name": "CombatState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\CombatState",
+      "GUID": "{DD31AF01-7573-4CF0-8413-9624ACF3C298}",
+      "Switches": [
+       {
+        "Id": "221232711",
+        "Name": "LOST",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOST",
+        "GUID": "{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"
+       },
+       {
+        "Id": "335549223",
+        "Name": "LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING",
+        "GUID": "{49964DFC-1A17-4625-8059-142CB79D82E4}"
+       },
+       {
+        "Id": "1007798069",
+        "Name": "NORMAL_TO_LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL_TO_LOSING",
+        "GUID": "{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"
+       },
+       {
+        "Id": "1080430619",
+        "Name": "WON",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WON",
+        "GUID": "{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "INTRO",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\INTRO",
+        "GUID": "{19162A02-3135-4733-8270-B3B7648B5031}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL",
+        "GUID": "{BD137C15-F693-4D49-B360-8C2C9FCB1422}"
+       },
+       {
+        "Id": "1617319613",
+        "Name": "LOSING_TO_NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING_TO_NORMAL",
+        "GUID": "{725E7E15-B490-43E8-94EA-DF16874D9CCA}"
+       },
+       {
+        "Id": "2996998095",
+        "Name": "WINNING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WINNING",
+        "GUID": "{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2EBC5C0E-C73B-57D5-3CFD-48C2E194D44F}"
+ }
+}

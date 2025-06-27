@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1071758680	CombatState			\Default Work Unit\CombatState	
+
+Switch	ID	Name	Switch Group			Notes
+	1523385933	STAGE_CHOICE	MusicState			
+	2607556080	MENU	MusicState			
+	2764240573	COMBAT	MusicState			
+	221232711	LOST	CombatState			
+	335549223	LOSING	CombatState			
+	1007798069	NORMAL_TO_LOSING	CombatState			
+	1080430619	WON	CombatState			
+	1125500713	INTRO	CombatState			
+	1160234136	NORMAL	CombatState			
+	1617319613	LOSING_TO_NORMAL	CombatState			
+	2996998095	WINNING	CombatState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	133642231	General			\Default Work Unit\General	
+	3991942870	Music			\Default Work Unit\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	65559052	MissionAetheria_BattleMusic_LOSING_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_LOSING_V4_69EBCF53.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_LOSING_V4\MissionAetheria_BattleMusic_LOSING_V4		8192160
+	285974634	MissionAetheria_BattleMusic_LOST_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_LOST_V4_90F163F6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_LOST_V4\MissionAetheria_BattleMusic_LOST_V4		2048160
+	470330310	MissionAetheria_BattleMusic_NORMALtoLOSING_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_NORMALtoLOSING_V4_F895A9A8.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_NORMALtoLOSING_V4\MissionAetheria_BattleMusic_NORMALtoLOSING_V4		3357084
+	514355989	MissionAetheria_BattleMusic_WON_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_WON_V4_C4E60D56.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_WON_V4\MissionAetheria_BattleMusic_WON_V4		8192160
+	587551040	MissionAetheria_BattleMusic_WINING_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_WINING_V4_1EAB9E91.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_WINING_V4\MissionAetheria_BattleMusic_WINING_V4		8192160
+	595490260	MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4_EEB8967D.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4\MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4		1679672
+	677109015	MissionAetheria_BattleMusic_NORMAL_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_NORMAL_V4_C4E60D56.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_NORMAL_V4\MissionAetheria_BattleMusic_NORMAL_V4		8192160
+	779417505	MissionAetheria_MainScreen_V2	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_MainScreen_V2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\MAIN_SCREEN\MissionAetheria_MainScreen_V2\MissionAetheria_MainScreen_V2		44302096
+	794644685	MissionAetheria_BattleMusic_INTRO_V4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_BattleMusic_INTRO_V4_0BC1EC11.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\Combat_Music\MissionAetheria_BattleMusic_INTRO_V4\MissionAetheria_BattleMusic_INTRO_V4		8192160
+	1003862042	MissionAetheria_ChoixNiveau_V1	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Windows\SFX\MissionAetheria_ChoixNiveau_V1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music_State\CHOIX_NIVEAUX\MissionAetheria_ChoixNiveau_V1\MissionAetheria_ChoixNiveau_V1		12288096
+

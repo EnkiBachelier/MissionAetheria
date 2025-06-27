@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	734087243	ResearchServer			\Default Work Unit\UI\ResearchServer	
+	985442775	LoadingScreen			\Default Work Unit\UI\LoadingScreen	
+	1584507803	Click			\Default Work Unit\UI\Click	
+	3753593413	Hover			\Default Work Unit\UI\Hover	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	133642231	General			\Default Work Unit\General	
+	393239870	Sfx			\Default Work Unit\Sfx	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	435590600	SFX_HOVER	E:\MissionAetheria\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_HOVER_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_UI\SFX_HOVER		92452
+	725826441	SFX_LOADING SCREEN	E:\MissionAetheria\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_LOADING SCREEN_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_UI\SFX_LOADING SCREEN		1550784
+	852956337	SFX_BUTTON CLICK	E:\MissionAetheria\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_BUTTON CLICK_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_UI\SFX_BUTTON CLICK		57696
+	1046111637	SFX_RESEARCH SERVER	E:\MissionAetheria\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_RESEARCH SERVER_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_UI\SFX_RESEARCH SERVER		1107444
+

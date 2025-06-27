@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	17721092	Play_Grab			\Default Work Unit\SFX_Character\SFX_GeneralOC\Play_Grab	
+	44967137	Play_Grenade_Impule			\Default Work Unit\SFX_Character\Sniper\Play_Grenade_Impule	
+	78625330	Play_SandWalkRandom			\Default Work Unit\SFX_Character\Play_SandWalkRandom	
+	668128633	Play_SFX_FLAME_RELOAD			\Default Work Unit\SFX_Character\Pyromaniac\Play_SFX_FLAME_RELOAD	
+	974101127	Play_Reload_Pisto			\Default Work Unit\SFX_Character\Medic\Play_Reload_Pisto	
+	1397789247	Play_Riffle_tek_reload			\Default Work Unit\SFX_Character\Hacker\Play_Riffle_tek_reload	
+	1714743432	Play_SFX_FLAME_MAX			\Default Work Unit\SFX_Character\Pyromaniac\Play_SFX_FLAME_MAX	
+	2013199493	Play_Precision_Riffle_Reload			\Default Work Unit\SFX_Character\Sniper\Play_Precision_Riffle_Reload	
+	2024969657	Play_SFX_war_plane_missiles			\Default Work Unit\SFX_Character\Pilot\Play_SFX_war_plane_missiles	
+	2558150165	Play_IEM			\Default Work Unit\SFX_Character\Hacker\Play_IEM	
+	2794699763	Play_SFX_War_plane_minigun			\Default Work Unit\SFX_Character\Pilot\Play_SFX_War_plane_minigun	
+	2802293557	Play_SFX_SHIELD			\Default Work Unit\SFX_Character\Hacker\Play_SFX_SHIELD	
+	2987024503	Play_allies_you_attach_to_the_plane			\Default Work Unit\SFX_Character\Pilot\Play_allies_you_attach_to_the_plane	
+	3259068271	Play_Tek_riffle			\Default Work Unit\SFX_Character\Hacker\Play_Tek_riffle	
+	3309102655	Play_Shoot_Pistol			\Default Work Unit\SFX_Character\Medic\Play_Shoot_Pistol	
+	3480651491	Play_Precision_Riffle_Shoot			\Default Work Unit\SFX_Character\Sniper\Play_Precision_Riffle_Shoot	
+	3785441767	Play_SFX_reloading_minigun			\Default Work Unit\SFX_Character\Pilot\Play_SFX_reloading_minigun	
+	3820612474	Play_futuriste_spaceship			\Default Work Unit\SFX_Character\Pilot\Play_futuriste_spaceship	
+	4044062098	Play_Reffil_canister			\Default Work Unit\SFX_Character\Medic\Play_Reffil_canister	
+	4128796527	Play_SFX_FLAME			\Default Work Unit\SFX_Character\Pyromaniac\Play_SFX_FLAME	
+	4183432593	Play_Loose_PV			\Default Work Unit\SFX_Character\SFX_GeneralOC\Play_Loose_PV	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	133642231	General			\Default Work Unit\General	
+	393239870	Sfx			\Default Work Unit\Sfx	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	160312615	allies you attach to the plane	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\allies you attach to the plane_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PILOTE\allies you attach to the plane		472524
+	166798633	SFX_War plane minigun	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_War plane minigun (short)-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PILOTE\SFX_War plane minigun		9404
+	181251505	SFX_FIRE_DAMAGE	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_FIRE_DAMAGE_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PYROMANIAC\SFX_FIRE_DAMAGE		524540
+	248059316	SFX_FLAME RELOAD	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_FLAME RELOAD_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PYROMANIAC\SFX_FLAME RELOAD		905240
+	353986513	SFX_RIFFLE_TEK_001	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_RIFFLE_TEK\SFX_RIFFLE_TEK_001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\HACKER\SFX_RIFFLE_TEK_001		523380
+	401330048	SFX_FLAME	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_FLAME-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PYROMANIAC\SFX_FLAME		172992
+	405506666	Sand walk-3	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Sand walk-3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\SandWalkRandom\Sand walk-3		119720
+	429002998	SFX_reloading minigun	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_reloading minigun_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PILOTE\SFX_reloading minigun		643188
+	460966270	Grenade Impule	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Grenade Impule_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\SNIPER\Grenade Impule		768096
+	488214049	Reload Pisto	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Reload Pisto_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\MEDIC\Reload Pisto		96568
+	594340275	futuriste spaceship	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\futuriste spaceship_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PILOTE\futuriste spaceship		3224308
+	652963083	Sand walk-2	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Sand walk-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\SandWalkRandom\Sand walk-2		172352
+	672002658	Sand walk-5	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Sand walk-5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\SandWalkRandom\Sand walk-5		144296
+	706720408	Loose PV	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Loose PV_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_GENERAL_OC\Loose PV		14940
+	708280389	SFX_SHIELD	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_SHIELD\SFX_SHIELD_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\HACKER\SFX_SHIELD		550052
+	849477051	SFX_IEM_1	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_IEM\SFX_IEM_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\HACKER\SFX_IEM_1		570804
+	856335120	Grab	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Grab_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\SFX_GENERAL_OC\Grab		139400
+	944662409	SFX_RIFFLE_TEK_REALOAD_001	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_RIFFLE_TEK_RELOAD\SFX_RIFFLE_TEK_REALOAD_001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\HACKER\SFX_RIFFLE_TEK_REALOAD_001		349280
+	963354868	Precision Riffle Shoot	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Precision Riffle Shoot_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\SNIPER\Precision Riffle Shoot		483212
+	983757718	Sand walk	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Sand walk_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\SandWalkRandom\Sand walk		160392
+	1000205410	SFX_FLAME MAX	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_FLAME MAX_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PYROMANIAC\SFX_FLAME MAX		1695540
+	1005209352	SFX_war plane missiles	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\SFX_war plane missiles_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\PILOTE\SFX_war plane missiles		968768
+	1022788264	Sand walk-4	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Sand walk-4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\FOOTSTEP\SandWalkRandom\Sand walk-4		181924
+	1055985146	Shoot Pistol	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Shoot Pistol_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\MEDIC\Shoot Pistol		307296
+	1059108405	Precision Riffle Reload	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Precision Riffle Reload_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\SNIPER\Precision Riffle Reload		211296
+	1073377498	Reffil canister	C:\Users\Dominique\Perforce\LisaP3_PcDmino_2362\MissionAetheria\MissionAetheria_WwiseProject\.cache\Mac\SFX\Reffil canister_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SOUND_SFX\CHARACTERS\SFX_CHARACTERS\MEDIC\Reffil canister		206188
+

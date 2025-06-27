@@ -1,0 +1,5100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Windows",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{2E63F165-A922-B9DF-FD08-CC7F23040572}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{ABB427E7-5B9E-40EF-B50F-9907F74D512C}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{04A26B24-6186-4851-AEF3-CE52364548F2}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     },
+     {
+      "Id": "1002703731",
+      "Name": "Voiceline",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Voiceline",
+      "GUID": "{94D08BFA-C1C6-42E7-9FF7-D74547FCCE28}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "408582676",
+      "Name": "Types",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Types",
+      "GUID": "{6322B586-4EF5-4C55-8573-4AFE86A6EFC2}",
+      "Switches": [
+       {
+        "Id": "993089949",
+        "Name": "LevelPanel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\LevelPanel",
+        "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+       },
+       {
+        "Id": "1593864692",
+        "Name": "Defeat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Defeat",
+        "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+       },
+       {
+        "Id": "1825909681",
+        "Name": "AllyDead",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\AllyDead",
+        "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+       },
+       {
+        "Id": "1941003890",
+        "Name": "Wave",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Wave",
+        "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+       },
+       {
+        "Id": "2030840469",
+        "Name": "Kill",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Kill",
+        "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+       },
+       {
+        "Id": "2227248325",
+        "Name": "CharacterSelected",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\CharacterSelected",
+        "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Victory",
+        "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+       },
+       {
+        "Id": "2745196565",
+        "Name": "HealAlly",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\HealAlly",
+        "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+       },
+       {
+        "Id": "2766121599",
+        "Name": "Ride",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Ride",
+        "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+       },
+       {
+        "Id": "3013823463",
+        "Name": "EnergySelf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\EnergySelf",
+        "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+       },
+       {
+        "Id": "3178938455",
+        "Name": "EnergyAlly",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\EnergyAlly",
+        "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+       },
+       {
+        "Id": "3506714309",
+        "Name": "HealSelf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\HealSelf",
+        "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+       }
+      ]
+     },
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MusicState",
+      "GUID": "{03117505-D6A5-46FD-847A-B0B2689E4B3F}",
+      "Switches": [
+       {
+        "Id": "1523385933",
+        "Name": "STAGE_CHOICE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\STAGE_CHOICE",
+        "GUID": "{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "MENU",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\MENU",
+        "GUID": "{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "COMBAT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\COMBAT",
+        "GUID": "{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"
+       }
+      ]
+     },
+     {
+      "Id": "1071758680",
+      "Name": "CombatState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\CombatState",
+      "GUID": "{DD31AF01-7573-4CF0-8413-9624ACF3C298}",
+      "Switches": [
+       {
+        "Id": "221232711",
+        "Name": "LOST",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOST",
+        "GUID": "{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"
+       },
+       {
+        "Id": "335549223",
+        "Name": "LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING",
+        "GUID": "{49964DFC-1A17-4625-8059-142CB79D82E4}"
+       },
+       {
+        "Id": "1007798069",
+        "Name": "NORMAL_TO_LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL_TO_LOSING",
+        "GUID": "{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"
+       },
+       {
+        "Id": "1080430619",
+        "Name": "WON",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WON",
+        "GUID": "{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "INTRO",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\INTRO",
+        "GUID": "{19162A02-3135-4733-8270-B3B7648B5031}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL",
+        "GUID": "{BD137C15-F693-4D49-B360-8C2C9FCB1422}"
+       },
+       {
+        "Id": "1617319613",
+        "Name": "LOSING_TO_NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING_TO_NORMAL",
+        "GUID": "{725E7E15-B490-43E8-94EA-DF16874D9CCA}"
+       },
+       {
+        "Id": "2996998095",
+        "Name": "WINNING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WINNING",
+        "GUID": "{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"
+       }
+      ]
+     },
+     {
+      "Id": "1493036792",
+      "Name": "Roles",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Roles",
+      "GUID": "{1013B0FF-871E-4349-832C-C7D6070DE084}",
+      "Switches": [
+       {
+        "Id": "313898792",
+        "Name": "PYROMANIAC",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\PYROMANIAC",
+        "GUID": "{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"
+       },
+       {
+        "Id": "778039303",
+        "Name": "HACKER",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\HACKER",
+        "GUID": "{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"
+       },
+       {
+        "Id": "1842327993",
+        "Name": "PILOT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\PILOT",
+        "GUID": "{663EDA80-E49E-40A0-9FF6-10543A191D1E}"
+       },
+       {
+        "Id": "2550763292",
+        "Name": "SNIPER",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\SNIPER",
+        "GUID": "{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"
+       },
+       {
+        "Id": "3142410969",
+        "Name": "MEDIC",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\MEDIC",
+        "GUID": "{8948C5C2-45FA-4BAE-8207-F5212C170122}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1551306167",
+    "Type": "User",
+    "GUID": "{556D65DE-E108-496D-A0D1-97791900DA7F}",
+    "Language": "SFX",
+    "Hash": "{8FDBF2B9-FB03-765A-D0E6-EF30375388AE}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "Media": [
+     {
+      "Id": "435590600",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_HOVER.wav",
+      "CachePath": "SFX/SFX_HOVER_818F3B66.wem"
+     },
+     {
+      "Id": "725826441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_LOADING SCREEN.wav",
+      "CachePath": "SFX/SFX_LOADING SCREEN_FBC78EF0.wem"
+     },
+     {
+      "Id": "852956337",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_BUTTON CLICK.wav",
+      "CachePath": "SFX/SFX_BUTTON CLICK_818F3B66.wem"
+     },
+     {
+      "Id": "1046111637",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_RESEARCH SERVER.wav",
+      "CachePath": "SFX/SFX_RESEARCH SERVER_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1584507803",
+      "Name": "Click",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Click",
+      "GUID": "{A7B33C16-87DA-458E-9B71-4E0086A2F849}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3",
+      "DurationMax": "0.3",
+      "MediaRefs": [
+       {
+        "Id": "852956337"
+       }
+      ]
+     },
+     {
+      "Id": "3753593413",
+      "Name": "Hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Hover",
+      "GUID": "{2337207D-FFEB-4AA4-B3B3-8648A4AAA548}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.48102084",
+      "DurationMax": "0.48102084",
+      "MediaRefs": [
+       {
+        "Id": "435590600"
+       }
+      ]
+     },
+     {
+      "Id": "985442775",
+      "Name": "LoadingScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\LoadingScreen",
+      "GUID": "{86C9EA8E-A190-45FB-AD7C-FA7C68A10653}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "725826441"
+       }
+      ]
+     },
+     {
+      "Id": "734087243",
+      "Name": "ResearchServer",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ResearchServer",
+      "GUID": "{833D4E99-BE61-4135-8330-14B9189F4162}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.7674375",
+      "DurationMax": "5.7674375",
+      "MediaRefs": [
+       {
+        "Id": "1046111637"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     }
+    ]
+   },
+   {
+    "Id": "1557941045",
+    "Type": "User",
+    "GUID": "{C25869C5-F92C-44B0-B572-0D1896DB6603}",
+    "Language": "SFX",
+    "Hash": "{6777A639-03F2-F21B-F191-FC42E71774AE}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters",
+    "ShortName": "Characters",
+    "Path": "Characters.bnk",
+    "Media": [
+     {
+      "Id": "160312615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "allies you attach to the plane.wav",
+      "CachePath": "SFX/allies you attach to the plane_818F3B66.wem"
+     },
+     {
+      "Id": "166798633",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_War plane minigun (short)-2.wav",
+      "CachePath": "SFX/SFX_War plane minigun (short)-2_818F3B66.wem"
+     },
+     {
+      "Id": "181251505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FIRE_DAMAGE.wav",
+      "CachePath": "SFX/SFX_FIRE_DAMAGE_818F3B66.wem"
+     },
+     {
+      "Id": "248059316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME RELOAD.wav",
+      "CachePath": "SFX/SFX_FLAME RELOAD_818F3B66.wem"
+     },
+     {
+      "Id": "353986513",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_RIFFLE_TEK\\SFX_RIFFLE_TEK_001.wav",
+      "CachePath": "SFX/SFX_RIFFLE_TEK/SFX_RIFFLE_TEK_001_818F3B66.wem"
+     },
+     {
+      "Id": "401330048",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME-2.wav",
+      "CachePath": "SFX/SFX_FLAME-2_818F3B66.wem"
+     },
+     {
+      "Id": "405506666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-3.wav",
+      "CachePath": "SFX/Sand walk-3_818F3B66.wem"
+     },
+     {
+      "Id": "429002998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_reloading minigun.wav",
+      "CachePath": "SFX/SFX_reloading minigun_818F3B66.wem"
+     },
+     {
+      "Id": "460966270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenade Impule.wav",
+      "CachePath": "SFX/Grenade Impule_818F3B66.wem"
+     },
+     {
+      "Id": "488214049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Reload Pisto.wav",
+      "CachePath": "SFX/Reload Pisto_818F3B66.wem"
+     },
+     {
+      "Id": "594340275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "futuriste spaceship.wav",
+      "CachePath": "SFX/futuriste spaceship_818F3B66.wem"
+     },
+     {
+      "Id": "652963083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-2.wav",
+      "CachePath": "SFX/Sand walk-2_818F3B66.wem"
+     },
+     {
+      "Id": "672002658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-5.wav",
+      "CachePath": "SFX/Sand walk-5_818F3B66.wem"
+     },
+     {
+      "Id": "706720408",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Loose PV.wav",
+      "CachePath": "SFX/Loose PV_818F3B66.wem"
+     },
+     {
+      "Id": "708280389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_SHIELD\\SFX_SHIELD.wav",
+      "CachePath": "SFX/SFX_SHIELD/SFX_SHIELD_818F3B66.wem"
+     },
+     {
+      "Id": "849477051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_IEM\\SFX_IEM_1.wav",
+      "CachePath": "SFX/SFX_IEM/SFX_IEM_1_818F3B66.wem"
+     },
+     {
+      "Id": "856335120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grab.wav",
+      "CachePath": "SFX/Grab_818F3B66.wem"
+     },
+     {
+      "Id": "944662409",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_RIFFLE_TEK_RELOAD\\SFX_RIFFLE_TEK_REALOAD_001.wav",
+      "CachePath": "SFX/SFX_RIFFLE_TEK_RELOAD/SFX_RIFFLE_TEK_REALOAD_001_818F3B66.wem"
+     },
+     {
+      "Id": "963354868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Precision Riffle Shoot.wav",
+      "CachePath": "SFX/Precision Riffle Shoot_818F3B66.wem"
+     },
+     {
+      "Id": "983757718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk.wav",
+      "CachePath": "SFX/Sand walk_818F3B66.wem"
+     },
+     {
+      "Id": "1000205410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_FLAME MAX.wav",
+      "CachePath": "SFX/SFX_FLAME MAX_818F3B66.wem"
+     },
+     {
+      "Id": "1005209352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_war plane missiles.wav",
+      "CachePath": "SFX/SFX_war plane missiles_818F3B66.wem"
+     },
+     {
+      "Id": "1022788264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sand walk-4.wav",
+      "CachePath": "SFX/Sand walk-4_818F3B66.wem"
+     },
+     {
+      "Id": "1055985146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shoot Pistol.wav",
+      "CachePath": "SFX/Shoot Pistol_818F3B66.wem"
+     },
+     {
+      "Id": "1059108405",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Precision Riffle Reload.wav",
+      "CachePath": "SFX/Precision Riffle Reload_818F3B66.wem"
+     },
+     {
+      "Id": "1073377498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Reffil canister.wav",
+      "CachePath": "SFX/Reffil canister_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2987024503",
+      "Name": "Play_allies_you_attach_to_the_plane",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_allies_you_attach_to_the_plane",
+      "GUID": "{2A8DD7AF-0221-4098-B827-7B78528E6075}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4605625",
+      "DurationMax": "2.4605625",
+      "MediaRefs": [
+       {
+        "Id": "160312615"
+       }
+      ]
+     },
+     {
+      "Id": "3820612474",
+      "Name": "Play_futuriste_spaceship",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_futuriste_spaceship",
+      "GUID": "{D96F64A4-C5F2-44FA-A38B-FEA54B939B56}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "16.79277",
+      "DurationMax": "16.79277",
+      "MediaRefs": [
+       {
+        "Id": "594340275"
+       }
+      ]
+     },
+     {
+      "Id": "17721092",
+      "Name": "Play_Grab",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\SFX_GeneralOC\\Play_Grab",
+      "GUID": "{F71F3E3D-D69B-435C-A531-B65578FD2113}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4510833",
+      "DurationMax": "1.4510833",
+      "MediaRefs": [
+       {
+        "Id": "856335120"
+       }
+      ]
+     },
+     {
+      "Id": "44967137",
+      "Name": "Play_Grenade_Impule",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Grenade_Impule",
+      "GUID": "{F23551C3-DA5D-4006-BDA0-888F7ADDA98F}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "460966270"
+       }
+      ]
+     },
+     {
+      "Id": "2558150165",
+      "Name": "Play_IEM",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_IEM",
+      "GUID": "{04C8635B-A0D1-4DB3-AAF2-973AF2B14D32}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9724374",
+      "DurationMax": "2.9724374",
+      "MediaRefs": [
+       {
+        "Id": "849477051"
+       }
+      ]
+     },
+     {
+      "Id": "4183432593",
+      "Name": "Play_Loose_PV",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\SFX_GeneralOC\\Play_Loose_PV",
+      "GUID": "{5E970D07-3222-4861-B8C2-E8B6F18BEA40}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.0773125",
+      "DurationMax": "0.0773125",
+      "MediaRefs": [
+       {
+        "Id": "706720408"
+       }
+      ]
+     },
+     {
+      "Id": "2013199493",
+      "Name": "Play_Precision_Riffle_Reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Precision_Riffle_Reload",
+      "GUID": "{7F3BCDBA-9F5B-4554-A917-CF96D7D52995}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1",
+      "DurationMax": "1.1",
+      "MediaRefs": [
+       {
+        "Id": "1059108405"
+       }
+      ]
+     },
+     {
+      "Id": "3480651491",
+      "Name": "Play_Precision_Riffle_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Sniper\\Play_Precision_Riffle_Shoot",
+      "GUID": "{F3789561-F0AA-4C2F-B873-5190EECED93A}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5162396",
+      "DurationMax": "2.5162396",
+      "MediaRefs": [
+       {
+        "Id": "963354868"
+       }
+      ]
+     },
+     {
+      "Id": "4044062098",
+      "Name": "Play_Reffil_canister",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Reffil_canister",
+      "GUID": "{84249655-4274-442E-A60D-A9F210C20E9C}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0734062",
+      "DurationMax": "1.0734062",
+      "MediaRefs": [
+       {
+        "Id": "1073377498"
+       }
+      ]
+     },
+     {
+      "Id": "974101127",
+      "Name": "Play_Reload_Pisto",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Reload_Pisto",
+      "GUID": "{37E62392-FD02-41A4-8392-5126DDDA7DF8}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.50245833",
+      "DurationMax": "0.50245833",
+      "MediaRefs": [
+       {
+        "Id": "488214049"
+       }
+      ]
+     },
+     {
+      "Id": "1397789247",
+      "Name": "Play_Riffle_tek_reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_Riffle_tek_reload",
+      "GUID": "{48F23801-968B-44FE-ADC0-804A00BD96CE}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8186667",
+      "DurationMax": "1.8186667",
+      "MediaRefs": [
+       {
+        "Id": "944662409"
+       }
+      ]
+     },
+     {
+      "Id": "78625330",
+      "Name": "Play_SandWalkRandom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Play_SandWalkRandom",
+      "GUID": "{530C4121-EB94-4425-84DC-896307DEF3EF}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6230417",
+      "DurationMax": "0.9470208",
+      "MediaRefs": [
+       {
+        "Id": "405506666"
+       },
+       {
+        "Id": "652963083"
+       },
+       {
+        "Id": "672002658"
+       },
+       {
+        "Id": "983757718"
+       },
+       {
+        "Id": "1022788264"
+       }
+      ]
+     },
+     {
+      "Id": "4128796527",
+      "Name": "Play_SFX_FLAME",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME",
+      "GUID": "{FC26BE06-858F-413B-9C76-EC7781CDF097}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9005",
+      "DurationMax": "0.9005",
+      "MediaRefs": [
+       {
+        "Id": "401330048"
+       }
+      ]
+     },
+     {
+      "Id": "1714743432",
+      "Name": "Play_SFX_FLAME_MAX",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME_MAX",
+      "GUID": "{0BA9591F-93E5-4F4F-9A4C-34D3E56C6AE1}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "8.830438",
+      "DurationMax": "8.830438",
+      "MediaRefs": [
+       {
+        "Id": "1000205410"
+       }
+      ]
+     },
+     {
+      "Id": "668128633",
+      "Name": "Play_SFX_FLAME_RELOAD",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pyromaniac\\Play_SFX_FLAME_RELOAD",
+      "GUID": "{CCF53D8E-AFCF-4330-A27B-F3EF2E006CAB}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.7142916",
+      "DurationMax": "4.7142916",
+      "MediaRefs": [
+       {
+        "Id": "248059316"
+       }
+      ]
+     },
+     {
+      "Id": "3785441767",
+      "Name": "Play_SFX_reloading_minigun",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_reloading_minigun",
+      "GUID": "{5887F9E6-144D-44AF-8C84-C0F3C337DD93}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3494375",
+      "DurationMax": "3.3494375",
+      "MediaRefs": [
+       {
+        "Id": "429002998"
+       }
+      ]
+     },
+     {
+      "Id": "2802293557",
+      "Name": "Play_SFX_SHIELD",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_SFX_SHIELD",
+      "GUID": "{3547BF0C-395C-46CD-81F0-04BC44116840}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8643541",
+      "DurationMax": "2.8643541",
+      "MediaRefs": [
+       {
+        "Id": "708280389"
+       }
+      ]
+     },
+     {
+      "Id": "2794699763",
+      "Name": "Play_SFX_War_plane_minigun",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_War_plane_minigun",
+      "GUID": "{0B5E6D0F-806E-476D-A80A-374D760E9F76}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.048479166",
+      "DurationMax": "0.048479166",
+      "MediaRefs": [
+       {
+        "Id": "166798633"
+       }
+      ]
+     },
+     {
+      "Id": "2024969657",
+      "Name": "Play_SFX_war_plane_missiles",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Pilot\\Play_SFX_war_plane_missiles",
+      "GUID": "{CCF92062-E233-43E2-BCF7-3F61A884AF0D}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.0451665",
+      "DurationMax": "5.0451665",
+      "MediaRefs": [
+       {
+        "Id": "1005209352"
+       }
+      ]
+     },
+     {
+      "Id": "3309102655",
+      "Name": "Play_Shoot_Pistol",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Medic\\Play_Shoot_Pistol",
+      "GUID": "{4378A9EA-7F82-4F8B-B642-949CE3F87B67}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6",
+      "DurationMax": "1.6",
+      "MediaRefs": [
+       {
+        "Id": "1055985146"
+       }
+      ]
+     },
+     {
+      "Id": "3259068271",
+      "Name": "Play_Tek_riffle",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Character\\Hacker\\Play_Tek_riffle",
+      "GUID": "{D36CC63D-6DF4-4D51-B81B-406AD02127EC}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7254374",
+      "DurationMax": "2.7254374",
+      "MediaRefs": [
+       {
+        "Id": "353986513"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     }
+    ]
+   },
+   {
+    "Id": "2292057722",
+    "Type": "User",
+    "GUID": "{C15CCAE9-6EE0-4CCC-9897-4411CE236610}",
+    "Language": "SFX",
+    "Hash": "{1E887BCF-97E5-D8EE-7B3A-BEA14C15555D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Voicelines",
+    "ShortName": "Voicelines",
+    "Path": "Voicelines.bnk",
+    "Media": [
+     {
+      "Id": "7891458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Defeat_01_FXLoud.wav",
+      "CachePath": "SFX/Max_Defeat_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "9259892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_EnergySelf_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_EnergySelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "12356671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_AllyDead_02_InHeadFX.wav",
+      "CachePath": "SFX/Prya_AllyDead_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "14811719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Victory_01_FXLoud.wav",
+      "CachePath": "SFX/Max_Victory_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "14944400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergySelf_04_FXLoud.wav",
+      "CachePath": "SFX/Max_EnergySelf_04_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "19751539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergyAlly_04_RadioFX.wav",
+      "CachePath": "SFX/Max_EnergyAlly_04_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "30033587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Wave_01_RadioFX.wav",
+      "CachePath": "SFX/Ivan_Wave_01_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "35942163",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_CharacterSelected_01_InHeadFX.wav",
+      "CachePath": "SFX/Max_CharacterSelected_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "41631819",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Victory_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_Victory_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "61632399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_AllyDead_02_InHeadFX.wav",
+      "CachePath": "SFX/Ivan_AllyDead_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "70680863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_LevelPanel_01_FXLoud.wav",
+      "CachePath": "SFX/Max_LevelPanel_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "77536050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Victory_03_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Victory_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "87611756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Ride_01_FXLoud.wav",
+      "CachePath": "SFX/Max_Ride_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "90825183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_HealAlly_03_FXLoud.wav",
+      "CachePath": "SFX/Henrick_HealAlly_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "96440283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Wave_02-RadioFX.wav",
+      "CachePath": "SFX/Prya_Wave_02-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "99742309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_EnergyAlly_02_RadioFX.wav",
+      "CachePath": "SFX/Ivan_EnergyAlly_02_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "119034671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_AllyDead_02_InHeadFX.wav",
+      "CachePath": "SFX/Max_AllyDead_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "124142445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Wave_02_RadioFX.wav",
+      "CachePath": "SFX/Henrick_Wave_02_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "126844016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Wave_03-RadioFX.wav",
+      "CachePath": "SFX/Prya_Wave_03-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "134585756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_EnergyAlly_01-RadioFX.wav",
+      "CachePath": "SFX/Prya_EnergyAlly_01-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "148852018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_CharacterSelected_01_InHeadFX.wav",
+      "CachePath": "SFX/Ivan_CharacterSelected_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "150229547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Wave_03_RadioFX.wav",
+      "CachePath": "SFX/Ivan_Wave_03_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "150655717",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Wave_03-RadioFX.wav",
+      "CachePath": "SFX/Ines_Wave_03-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "150846564",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Kill_03_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Kill_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "157138723",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_AllyDead_02-InHeadFX.wav",
+      "CachePath": "SFX/Ines_AllyDead_02-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "175677675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_EnergySelf_03_FXLoud.wav",
+      "CachePath": "SFX/Ivan_EnergySelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "176422894",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_HealAlly_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_HealAlly_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "178282464",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_AllyDead_03_InHeadFX.wav",
+      "CachePath": "SFX/Ivan_AllyDead_03_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "191876243",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_AllyDead_01_InHeadFX.wav",
+      "CachePath": "SFX/Max_AllyDead_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "198368169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergySelf_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_EnergySelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "202858468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergyAlly_02_RadioFX.wav",
+      "CachePath": "SFX/Max_EnergyAlly_02_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "211601658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Defeat_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Defeat_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "217325200",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_HealSelf_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_HealSelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "219688551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Kill_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Kill_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "220886333",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Defeat_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Defeat_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "221088988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Kill_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_Kill_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "224369433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Ride_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Ride_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "225698452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Victory_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Victory_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "226530420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergySelf_01_FXLoud.wav",
+      "CachePath": "SFX/Max_EnergySelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "235890749",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_LevelPanel_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_LevelPanel_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "235906597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealAlly_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealAlly_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "236876170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealAlly_01_FXLoud.wav",
+      "CachePath": "SFX/Max_HealAlly_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "243544485",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Victory_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_Victory_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "252405609",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Defeat_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_Defeat_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "258495533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Wave_01-RadioFX.wav",
+      "CachePath": "SFX/Ines_Wave_01-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "268778007",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealSelf_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealSelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "269891574",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Kill_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_Kill_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "272828815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergyAlly_03_RadioFX.wav",
+      "CachePath": "SFX/Max_EnergyAlly_03_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "285454659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_HealAlly_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_HealAlly_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "286331592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergyAlly_01-RadioFX.wav",
+      "CachePath": "SFX/Henrick_EnergyAlly_01-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "300023026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergySelf_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_EnergySelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "319189896",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_CharacterSelected_02_InHeadFX.wav",
+      "CachePath": "SFX/Max_CharacterSelected_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "335774877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Kill_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Kill_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "347014318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealAlly_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealAlly_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "355291604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Wave_01-RadioFX.wav",
+      "CachePath": "SFX/Prya_Wave_01-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "355302934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergySelf_03_FXLoud.wav",
+      "CachePath": "SFX/Henrick_EnergySelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "383675652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_AllyDead_01_InHeadFX.wav",
+      "CachePath": "SFX/Prya_AllyDead_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "387107002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Defeat_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_Defeat_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "390805620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Kill_04_FXLoud.wav",
+      "CachePath": "SFX/Max_Kill_04_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "399278646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Kill_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Kill_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "401237013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_AllyDead_03_InHeadFX.wav",
+      "CachePath": "SFX/Prya_AllyDead_03_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "407977081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergyAlly_02-RadioFX.wav",
+      "CachePath": "SFX/Henrick_EnergyAlly_02-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "417142917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_EnergySelf_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_EnergySelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "427027296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealAlly_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealAlly_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "428507330",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Victory_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_Victory_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "430013882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Defeat_02_FXLoud.wav",
+      "CachePath": "SFX/Max_Defeat_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "440077067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_CharacterSelected_02_InHeadFX.wav",
+      "CachePath": "SFX/Henrick_CharacterSelected_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "442382548",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Wave_03_RadioFX.wav",
+      "CachePath": "SFX/Henrick_Wave_03_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "458432933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_AllyDead_01-InHeadFX.wav",
+      "CachePath": "SFX/Henrick_AllyDead_01-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "465089640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergySelf_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_EnergySelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "469815539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_HealSelf_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_HealSelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "474096138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_LevelPanel_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_LevelPanel_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "477875801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealSelf_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealSelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "483208147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealSelf_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealSelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "486946511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_EnergyAlly_01_RadioFX.wav",
+      "CachePath": "SFX/Ivan_EnergyAlly_01_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "488945057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Kill_02_FXLoud.wav",
+      "CachePath": "SFX/Max_Kill_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "497028037",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealSelf_02_FXLoud.wav",
+      "CachePath": "SFX/Max_HealSelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "505494893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergySelf_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_EnergySelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "514635203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Defeat_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Defeat_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "518053563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_HealAlly_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_HealAlly_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "523912050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergyAlly_01_RadioFX.wav",
+      "CachePath": "SFX/Max_EnergyAlly_01_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "526393340",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Ride_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Ride_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "534316649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealAlly_02_FXLoud.wav",
+      "CachePath": "SFX/Max_HealAlly_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "549402260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Ride_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_Ride_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "552906626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_LevelPanel_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_LevelPanel_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "555867759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Victory_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Victory_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "559958491",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_CharacterSelected_01_InHeadFX.wav",
+      "CachePath": "SFX/Ines_CharacterSelected_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "568286703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealSelf_04_FXLoud.wav",
+      "CachePath": "SFX/Max_HealSelf_04_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "571946817",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Defeat_03_FXLoud.wav",
+      "CachePath": "SFX/Max_Defeat_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "576637396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Defeat_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_Defeat_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "579794976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Defeat_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_Defeat_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "583228504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_CharacterSelected_01_InHeadFX.wav",
+      "CachePath": "SFX/Prya_CharacterSelected_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "591047779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Kill_03_FXLoud.wav",
+      "CachePath": "SFX/Prya_Kill_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "592773668",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergySelf_03_FXLoud.wav",
+      "CachePath": "SFX/Max_EnergySelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "607147579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Wave_02_RadioFX.wav",
+      "CachePath": "SFX/Max_Wave_02_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "611269190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Ride_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_Ride_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "618083270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_AllyDead_03_InHeadFX.wav",
+      "CachePath": "SFX/Max_AllyDead_03_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "626635675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_EnergySelf_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_EnergySelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "633157517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_EnergySelf_02_FXLoud.wav",
+      "CachePath": "SFX/Ivan_EnergySelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "637126184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Victory_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Victory_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "660976024",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Defeat_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Defeat_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "665130804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergyAlly_01-RadioFX.wav",
+      "CachePath": "SFX/Ines_EnergyAlly_01-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "670887872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_EnergyAlly_03-RadioFX.wav",
+      "CachePath": "SFX/Prya_EnergyAlly_03-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "677179707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Victory_01_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Victory_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "678563449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_HealSelf_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_HealSelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "704238245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_HealSelf_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_HealSelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "706997353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Wave_02_RadioFX.wav",
+      "CachePath": "SFX/Ivan_Wave_02_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "717833204",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Wave_03_RadioFX.wav",
+      "CachePath": "SFX/Max_Wave_03_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "718126907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealAlly_03_FXLoud.wav",
+      "CachePath": "SFX/Max_HealAlly_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "736914906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_EnergyAlly_03-RadioFX.wav",
+      "CachePath": "SFX/Henrick_EnergyAlly_03-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "745939342",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealSelf_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealSelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "759955983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_AllyDead_01-InHeadFX.wav",
+      "CachePath": "SFX/Ines_AllyDead_01-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "776129353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Defeat_01_FXLoud.wav",
+      "CachePath": "SFX/Prya_Defeat_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "790018970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergyAlly_03-RadioFX.wav",
+      "CachePath": "SFX/Ines_EnergyAlly_03-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "794087506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealAlly_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealAlly_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "814833133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Wave_01_RadioFX.wav",
+      "CachePath": "SFX/Henrick_Wave_01_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "818269423",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Victory_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_Victory_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "819810092",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_AllyDead_02-InHeadFX.wav",
+      "CachePath": "SFX/Henrick_AllyDead_02-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "823944225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_EnergyAlly_02-RadioFX.wav",
+      "CachePath": "SFX/Prya_EnergyAlly_02-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "834648728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_LevelPanel_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_LevelPanel_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "851612061",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealAlly_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealAlly_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "870900210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_Kill_02_FXLoud.wav",
+      "CachePath": "SFX/Prya_Kill_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "877893039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Kill_04_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Kill_04_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "879353775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_HealAlly_02_FXLoud.wav",
+      "CachePath": "SFX/Henrick_HealAlly_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "880741557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Kill_01_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Kill_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "881612466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_HealSelf_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_HealSelf_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "886843360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Kill_01_FXLoud.wav",
+      "CachePath": "SFX/Max_Kill_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "892683103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_CharacterSelected_01_InHeadFX.wav",
+      "CachePath": "SFX/Henrick_CharacterSelected_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "904848400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Kill_03_FXLoud.wav",
+      "CachePath": "SFX/Max_Kill_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "911042817",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Kill_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_Kill_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "941357620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_Kill_03_FXLoud.wav",
+      "CachePath": "SFX/Henrick_Kill_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "943074743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealSelf_03_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealSelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "943493838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Prya_HealAlly_03_FXLoud.wav",
+      "CachePath": "SFX/Prya_HealAlly_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "954288621",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Victory_02_FXLoud.wav",
+      "CachePath": "SFX/Ines_Victory_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "967096488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergySelf_03_FXLoud.wav",
+      "CachePath": "SFX/Ines_EnergySelf_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "967986764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_Kill_04_FXLoud.wav",
+      "CachePath": "SFX/Ivan_Kill_04_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "970798864",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_AllyDead_03-InHeadFX.wav",
+      "CachePath": "SFX/Ines_AllyDead_03-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "979709759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_EnergyAlly_02-RadioFX.wav",
+      "CachePath": "SFX/Ines_EnergyAlly_02-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "990854256",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Wave_02-RadioFX.wav",
+      "CachePath": "SFX/Ines_Wave_02-RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "1002271152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_CharacterSelected_02_InHeadFX.wav",
+      "CachePath": "SFX/Ivan_CharacterSelected_02_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "1017441674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_HealSelf_01_FXLoud.wav",
+      "CachePath": "SFX/Max_HealSelf_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "1025731252",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ines_Kill_01_FXLoud.wav",
+      "CachePath": "SFX/Ines_Kill_01_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "1031448775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Wave_01_RadioFX.wav",
+      "CachePath": "SFX/Max_Wave_01_RadioFX_818F3B66.wem"
+     },
+     {
+      "Id": "1041655240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_Victory_02_FXLoud.wav",
+      "CachePath": "SFX/Max_Victory_02_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "1043787928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_HealAlly_03_FXLoud.wav",
+      "CachePath": "SFX/Ivan_HealAlly_03_FXLoud_818F3B66.wem"
+     },
+     {
+      "Id": "1043916013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Henrick_AllyDead_03-InHeadFX.wav",
+      "CachePath": "SFX/Henrick_AllyDead_03-InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "1055761193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ivan_AllyDead_01_InHeadFX.wav",
+      "CachePath": "SFX/Ivan_AllyDead_01_InHeadFX_818F3B66.wem"
+     },
+     {
+      "Id": "1071309292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Max_EnergySelf_02_FXLoud.wav",
+      "CachePath": "SFX/Max_EnergySelf_02_FXLoud_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1002703731",
+      "Name": "Voiceline",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voiceline",
+      "GUID": "{6C9799C7-DA53-46A0-9F85-5E69B2E63C0B}",
+      "MaxAttenuation": "1",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9838542",
+      "DurationMax": "4.877604",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "2550763292",
+         "GUID": "{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "61632399"
+           },
+           {
+            "Id": "178282464"
+           },
+           {
+            "Id": "1055761193"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "99742309"
+           },
+           {
+            "Id": "486946511"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "9259892"
+           },
+           {
+            "Id": "175677675"
+           },
+           {
+            "Id": "633157517"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "474096138"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "150846564"
+           },
+           {
+            "Id": "219688551"
+           },
+           {
+            "Id": "335774877"
+           },
+           {
+            "Id": "967986764"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "235906597"
+           },
+           {
+            "Id": "427027296"
+           },
+           {
+            "Id": "1043787928"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "224369433"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "148852018"
+           },
+           {
+            "Id": "1002271152"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "211601658"
+           },
+           {
+            "Id": "514635203"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "268778007"
+           },
+           {
+            "Id": "477875801"
+           },
+           {
+            "Id": "943074743"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "30033587"
+           },
+           {
+            "Id": "150229547"
+           },
+           {
+            "Id": "706997353"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "77536050"
+           },
+           {
+            "Id": "225698452"
+           },
+           {
+            "Id": "677179707"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "1842327993",
+         "GUID": "{663EDA80-E49E-40A0-9FF6-10543A191D1E}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "458432933"
+           },
+           {
+            "Id": "819810092"
+           },
+           {
+            "Id": "1043916013"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "286331592"
+           },
+           {
+            "Id": "407977081"
+           },
+           {
+            "Id": "736914906"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "300023026"
+           },
+           {
+            "Id": "355302934"
+           },
+           {
+            "Id": "505494893"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "834648728"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "399278646"
+           },
+           {
+            "Id": "877893039"
+           },
+           {
+            "Id": "880741557"
+           },
+           {
+            "Id": "941357620"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "90825183"
+           },
+           {
+            "Id": "285454659"
+           },
+           {
+            "Id": "879353775"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "526393340"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "440077067"
+           },
+           {
+            "Id": "892683103"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "220886333"
+           },
+           {
+            "Id": "660976024"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "678563449"
+           },
+           {
+            "Id": "704238245"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "124142445"
+           },
+           {
+            "Id": "442382548"
+           },
+           {
+            "Id": "814833133"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "555867759"
+           },
+           {
+            "Id": "637126184"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "313898792",
+         "GUID": "{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "119034671"
+           },
+           {
+            "Id": "191876243"
+           },
+           {
+            "Id": "618083270"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "19751539"
+           },
+           {
+            "Id": "202858468"
+           },
+           {
+            "Id": "272828815"
+           },
+           {
+            "Id": "523912050"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "14944400"
+           },
+           {
+            "Id": "226530420"
+           },
+           {
+            "Id": "592773668"
+           },
+           {
+            "Id": "1071309292"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "70680863"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "390805620"
+           },
+           {
+            "Id": "488945057"
+           },
+           {
+            "Id": "886843360"
+           },
+           {
+            "Id": "904848400"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "236876170"
+           },
+           {
+            "Id": "534316649"
+           },
+           {
+            "Id": "718126907"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "87611756"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "35942163"
+           },
+           {
+            "Id": "319189896"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "7891458"
+           },
+           {
+            "Id": "430013882"
+           },
+           {
+            "Id": "571946817"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "497028037"
+           },
+           {
+            "Id": "568286703"
+           },
+           {
+            "Id": "1017441674"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "607147579"
+           },
+           {
+            "Id": "717833204"
+           },
+           {
+            "Id": "1031448775"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "14811719"
+           },
+           {
+            "Id": "1041655240"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "3142410969",
+         "GUID": "{8948C5C2-45FA-4BAE-8207-F5212C170122}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "12356671"
+           },
+           {
+            "Id": "383675652"
+           },
+           {
+            "Id": "401237013"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "134585756"
+           },
+           {
+            "Id": "670887872"
+           },
+           {
+            "Id": "823944225"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "417142917"
+           },
+           {
+            "Id": "626635675"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "235890749"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "221088988"
+           },
+           {
+            "Id": "591047779"
+           },
+           {
+            "Id": "870900210"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "176422894"
+           },
+           {
+            "Id": "518053563"
+           },
+           {
+            "Id": "943493838"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "611269190"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "583228504"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "387107002"
+           },
+           {
+            "Id": "776129353"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "217325200"
+           },
+           {
+            "Id": "469815539"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "96440283"
+           },
+           {
+            "Id": "126844016"
+           },
+           {
+            "Id": "355291604"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "243544485"
+           },
+           {
+            "Id": "428507330"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "778039303",
+         "GUID": "{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "157138723"
+           },
+           {
+            "Id": "759955983"
+           },
+           {
+            "Id": "970798864"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "665130804"
+           },
+           {
+            "Id": "790018970"
+           },
+           {
+            "Id": "979709759"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "198368169"
+           },
+           {
+            "Id": "465089640"
+           },
+           {
+            "Id": "967096488"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "552906626"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "269891574"
+           },
+           {
+            "Id": "911042817"
+           },
+           {
+            "Id": "1025731252"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "347014318"
+           },
+           {
+            "Id": "794087506"
+           },
+           {
+            "Id": "851612061"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "549402260"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "559958491"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "252405609"
+           },
+           {
+            "Id": "576637396"
+           },
+           {
+            "Id": "579794976"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "483208147"
+           },
+           {
+            "Id": "745939342"
+           },
+           {
+            "Id": "881612466"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "150655717"
+           },
+           {
+            "Id": "258495533"
+           },
+           {
+            "Id": "990854256"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "41631819"
+           },
+           {
+            "Id": "818269423"
+           },
+           {
+            "Id": "954288621"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "2550763292",
+         "GUID": "{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "61632399"
+           },
+           {
+            "Id": "178282464"
+           },
+           {
+            "Id": "1055761193"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "99742309"
+           },
+           {
+            "Id": "486946511"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "9259892"
+           },
+           {
+            "Id": "175677675"
+           },
+           {
+            "Id": "633157517"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "474096138"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "150846564"
+           },
+           {
+            "Id": "219688551"
+           },
+           {
+            "Id": "335774877"
+           },
+           {
+            "Id": "967986764"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "235906597"
+           },
+           {
+            "Id": "427027296"
+           },
+           {
+            "Id": "1043787928"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "224369433"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "148852018"
+           },
+           {
+            "Id": "1002271152"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "211601658"
+           },
+           {
+            "Id": "514635203"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "268778007"
+           },
+           {
+            "Id": "477875801"
+           },
+           {
+            "Id": "943074743"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "30033587"
+           },
+           {
+            "Id": "150229547"
+           },
+           {
+            "Id": "706997353"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "77536050"
+           },
+           {
+            "Id": "225698452"
+           },
+           {
+            "Id": "677179707"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "1842327993",
+         "GUID": "{663EDA80-E49E-40A0-9FF6-10543A191D1E}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "458432933"
+           },
+           {
+            "Id": "819810092"
+           },
+           {
+            "Id": "1043916013"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "286331592"
+           },
+           {
+            "Id": "407977081"
+           },
+           {
+            "Id": "736914906"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "300023026"
+           },
+           {
+            "Id": "355302934"
+           },
+           {
+            "Id": "505494893"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "834648728"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "399278646"
+           },
+           {
+            "Id": "877893039"
+           },
+           {
+            "Id": "880741557"
+           },
+           {
+            "Id": "941357620"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "90825183"
+           },
+           {
+            "Id": "285454659"
+           },
+           {
+            "Id": "879353775"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "526393340"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "440077067"
+           },
+           {
+            "Id": "892683103"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "220886333"
+           },
+           {
+            "Id": "660976024"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "678563449"
+           },
+           {
+            "Id": "704238245"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "124142445"
+           },
+           {
+            "Id": "442382548"
+           },
+           {
+            "Id": "814833133"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "555867759"
+           },
+           {
+            "Id": "637126184"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "313898792",
+         "GUID": "{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "119034671"
+           },
+           {
+            "Id": "191876243"
+           },
+           {
+            "Id": "618083270"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "19751539"
+           },
+           {
+            "Id": "202858468"
+           },
+           {
+            "Id": "272828815"
+           },
+           {
+            "Id": "523912050"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "14944400"
+           },
+           {
+            "Id": "226530420"
+           },
+           {
+            "Id": "592773668"
+           },
+           {
+            "Id": "1071309292"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "70680863"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "390805620"
+           },
+           {
+            "Id": "488945057"
+           },
+           {
+            "Id": "886843360"
+           },
+           {
+            "Id": "904848400"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "236876170"
+           },
+           {
+            "Id": "534316649"
+           },
+           {
+            "Id": "718126907"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "87611756"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "35942163"
+           },
+           {
+            "Id": "319189896"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "7891458"
+           },
+           {
+            "Id": "430013882"
+           },
+           {
+            "Id": "571946817"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "497028037"
+           },
+           {
+            "Id": "568286703"
+           },
+           {
+            "Id": "1017441674"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "607147579"
+           },
+           {
+            "Id": "717833204"
+           },
+           {
+            "Id": "1031448775"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "14811719"
+           },
+           {
+            "Id": "1041655240"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "3142410969",
+         "GUID": "{8948C5C2-45FA-4BAE-8207-F5212C170122}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "12356671"
+           },
+           {
+            "Id": "383675652"
+           },
+           {
+            "Id": "401237013"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "134585756"
+           },
+           {
+            "Id": "670887872"
+           },
+           {
+            "Id": "823944225"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "417142917"
+           },
+           {
+            "Id": "626635675"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "235890749"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "221088988"
+           },
+           {
+            "Id": "591047779"
+           },
+           {
+            "Id": "870900210"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "176422894"
+           },
+           {
+            "Id": "518053563"
+           },
+           {
+            "Id": "943493838"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "611269190"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "583228504"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "387107002"
+           },
+           {
+            "Id": "776129353"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "217325200"
+           },
+           {
+            "Id": "469815539"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "96440283"
+           },
+           {
+            "Id": "126844016"
+           },
+           {
+            "Id": "355291604"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "243544485"
+           },
+           {
+            "Id": "428507330"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1493036792",
+         "Id": "778039303",
+         "GUID": "{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1825909681",
+           "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "157138723"
+           },
+           {
+            "Id": "759955983"
+           },
+           {
+            "Id": "970798864"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3178938455",
+           "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "665130804"
+           },
+           {
+            "Id": "790018970"
+           },
+           {
+            "Id": "979709759"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3013823463",
+           "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "198368169"
+           },
+           {
+            "Id": "465089640"
+           },
+           {
+            "Id": "967096488"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "993089949",
+           "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "552906626"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2030840469",
+           "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "269891574"
+           },
+           {
+            "Id": "911042817"
+           },
+           {
+            "Id": "1025731252"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2745196565",
+           "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "347014318"
+           },
+           {
+            "Id": "794087506"
+           },
+           {
+            "Id": "851612061"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2766121599",
+           "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "549402260"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2227248325",
+           "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "559958491"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1593864692",
+           "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "252405609"
+           },
+           {
+            "Id": "576637396"
+           },
+           {
+            "Id": "579794976"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "3506714309",
+           "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "483208147"
+           },
+           {
+            "Id": "745939342"
+           },
+           {
+            "Id": "881612466"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "1941003890",
+           "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "150655717"
+           },
+           {
+            "Id": "258495533"
+           },
+           {
+            "Id": "990854256"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "408582676",
+           "Id": "2716678721",
+           "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "41631819"
+           },
+           {
+            "Id": "818269423"
+           },
+           {
+            "Id": "954288621"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "1002703731",
+      "Name": "Voiceline",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Voiceline",
+      "GUID": "{94D08BFA-C1C6-42E7-9FF7-D74547FCCE28}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "408582676",
+      "Name": "Types",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Types",
+      "GUID": "{6322B586-4EF5-4C55-8573-4AFE86A6EFC2}",
+      "Switches": [
+       {
+        "Id": "993089949",
+        "Name": "LevelPanel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\LevelPanel",
+        "GUID": "{67D35817-B21D-4635-B9CF-6A84AD345F21}"
+       },
+       {
+        "Id": "1593864692",
+        "Name": "Defeat",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Defeat",
+        "GUID": "{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"
+       },
+       {
+        "Id": "1825909681",
+        "Name": "AllyDead",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\AllyDead",
+        "GUID": "{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"
+       },
+       {
+        "Id": "1941003890",
+        "Name": "Wave",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Wave",
+        "GUID": "{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"
+       },
+       {
+        "Id": "2030840469",
+        "Name": "Kill",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Kill",
+        "GUID": "{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"
+       },
+       {
+        "Id": "2227248325",
+        "Name": "CharacterSelected",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\CharacterSelected",
+        "GUID": "{36611492-88FE-47FE-858A-CACC317424ED}"
+       },
+       {
+        "Id": "2716678721",
+        "Name": "Victory",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Victory",
+        "GUID": "{F6DC14FD-6F43-4018-8126-B948090A0B12}"
+       },
+       {
+        "Id": "2745196565",
+        "Name": "HealAlly",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\HealAlly",
+        "GUID": "{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"
+       },
+       {
+        "Id": "2766121599",
+        "Name": "Ride",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\Ride",
+        "GUID": "{E3B78064-3207-495F-9305-A4F644AE2846}"
+       },
+       {
+        "Id": "3013823463",
+        "Name": "EnergySelf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\EnergySelf",
+        "GUID": "{14350611-A5A8-4F6A-B9FC-4993666A553F}"
+       },
+       {
+        "Id": "3178938455",
+        "Name": "EnergyAlly",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\EnergyAlly",
+        "GUID": "{F384770F-A1F9-4D68-A329-8BBC033453B5}"
+       },
+       {
+        "Id": "3506714309",
+        "Name": "HealSelf",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Types\\HealSelf",
+        "GUID": "{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"
+       }
+      ]
+     },
+     {
+      "Id": "1493036792",
+      "Name": "Roles",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Roles",
+      "GUID": "{1013B0FF-871E-4349-832C-C7D6070DE084}",
+      "Switches": [
+       {
+        "Id": "313898792",
+        "Name": "PYROMANIAC",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\PYROMANIAC",
+        "GUID": "{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"
+       },
+       {
+        "Id": "778039303",
+        "Name": "HACKER",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\HACKER",
+        "GUID": "{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"
+       },
+       {
+        "Id": "1842327993",
+        "Name": "PILOT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\PILOT",
+        "GUID": "{663EDA80-E49E-40A0-9FF6-10543A191D1E}"
+       },
+       {
+        "Id": "2550763292",
+        "Name": "SNIPER",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\SNIPER",
+        "GUID": "{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"
+       },
+       {
+        "Id": "3142410969",
+        "Name": "MEDIC",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Roles\\MEDIC",
+        "GUID": "{8948C5C2-45FA-4BAE-8207-F5212C170122}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2494382374",
+    "Type": "User",
+    "GUID": "{CA56BE31-6BD9-4632-B6E1-6C53427BBBB1}",
+    "Language": "SFX",
+    "Hash": "{5485F13B-D1A6-4C3F-1D4F-5DB24D762346}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Robots",
+    "ShortName": "Robots",
+    "Path": "Robots.bnk",
+    "Media": [
+     {
+      "Id": "1265647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "medium robot\\robot shot.wav",
+      "CachePath": "SFX/medium robot/robot shot_818F3B66.wem"
+     },
+     {
+      "Id": "141911708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk-3.wav",
+      "CachePath": "SFX/little robot walk-3_818F3B66.wem"
+     },
+     {
+      "Id": "290411853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot run.wav",
+      "CachePath": "SFX/Little robot/little robot run_818F3B66.wem"
+     },
+     {
+      "Id": "419616404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk.wav",
+      "CachePath": "SFX/little robot walk_818F3B66.wem"
+     },
+     {
+      "Id": "741900422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot punch.wav",
+      "CachePath": "SFX/Little robot/little robot punch_818F3B66.wem"
+     },
+     {
+      "Id": "808793640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "little robot walk-2.wav",
+      "CachePath": "SFX/little robot walk-2_818F3B66.wem"
+     },
+     {
+      "Id": "814400432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "medium robot\\medium impact 05.wav",
+      "CachePath": "SFX/medium robot/medium impact 05_818F3B66.wem"
+     },
+     {
+      "Id": "918872951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_INFECTED_ROBOT.wav",
+      "CachePath": "SFX/SFX_INFECTED_ROBOT_818F3B66.wem"
+     },
+     {
+      "Id": "930588981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot kick.wav",
+      "CachePath": "SFX/Little robot/little robot kick_818F3B66.wem"
+     },
+     {
+      "Id": "1052039144",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot die.wav",
+      "CachePath": "SFX/Little robot/little robot die_818F3B66.wem"
+     },
+     {
+      "Id": "1067545196",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Little robot\\little robot in fire.wav",
+      "CachePath": "SFX/Little robot/little robot in fire_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "239544544",
+      "Name": "Play_little_robot_die",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_die",
+      "GUID": "{CA11780E-37AA-4B83-8BFB-D59400EBC2DC}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.88475",
+      "DurationMax": "1.88475",
+      "MediaRefs": [
+       {
+        "Id": "1052039144"
+       }
+      ]
+     },
+     {
+      "Id": "1510861002",
+      "Name": "Play_little_robot_in_fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_in_fire",
+      "GUID": "{0DB407E2-8576-4D7C-8432-C29975FAFA7B}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.659125",
+      "DurationMax": "3.659125",
+      "MediaRefs": [
+       {
+        "Id": "1067545196"
+       }
+      ]
+     },
+     {
+      "Id": "1499117576",
+      "Name": "Play_little_robot_kick",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_kick",
+      "GUID": "{CC2A8171-9C6F-4F81-A7F4-4D5638528AE8}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2627292",
+      "DurationMax": "1.2627292",
+      "MediaRefs": [
+       {
+        "Id": "930588981"
+       }
+      ]
+     },
+     {
+      "Id": "2209457350",
+      "Name": "Play_little_robot_punch",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_punch",
+      "GUID": "{E8B2A784-E8FC-4199-8C49-106F35B1F81C}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8076875",
+      "DurationMax": "0.8076875",
+      "MediaRefs": [
+       {
+        "Id": "741900422"
+       }
+      ]
+     },
+     {
+      "Id": "237278765",
+      "Name": "Play_little_robot_run",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_run",
+      "GUID": "{87CC78C1-CA58-4104-8642-8A4464045539}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.217479",
+      "DurationMax": "4.217479",
+      "MediaRefs": [
+       {
+        "Id": "290411853"
+       }
+      ]
+     },
+     {
+      "Id": "1258179133",
+      "Name": "Play_little_robot_walk",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\LittleRobot\\Play_little_robot_walk",
+      "GUID": "{E6255F7E-20D6-4134-B6D4-E010942E83E6}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1087334990",
+      "Name": "Play_medium_impact_05",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\MiddleRobot\\Play_medium_impact_05",
+      "GUID": "{8696D986-18CC-4753-B10B-BBCEF1CF8B7B}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6227292",
+      "DurationMax": "0.6227292",
+      "MediaRefs": [
+       {
+        "Id": "814400432"
+       }
+      ]
+     },
+     {
+      "Id": "2376340741",
+      "Name": "Play_robot_shot",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\MiddleRobot\\Play_robot_shot",
+      "GUID": "{CAAA7A38-AFB5-4063-A90D-C8201AEE2FDA}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7980625",
+      "DurationMax": "0.7980625",
+      "MediaRefs": [
+       {
+        "Id": "1265647"
+       }
+      ]
+     },
+     {
+      "Id": "4234778556",
+      "Name": "Play_RobotWalkRandom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\Play_RobotWalkRandom",
+      "GUID": "{6FA06295-8149-4FB7-B525-4CC6658475EF}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7996042",
+      "DurationMax": "1.0022708",
+      "MediaRefs": [
+       {
+        "Id": "141911708"
+       },
+       {
+        "Id": "419616404"
+       },
+       {
+        "Id": "808793640"
+       }
+      ]
+     },
+     {
+      "Id": "3374342471",
+      "Name": "Play_SFX_INFECTED_ROBOT",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX_Robots\\Play_SFX_INFECTED_ROBOT",
+      "GUID": "{7E50E3A7-2276-4B88-A86A-EA4A8A333920}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.648125",
+      "DurationMax": "4.648125",
+      "MediaRefs": [
+       {
+        "Id": "918872951"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "393239870",
+      "Name": "Sfx",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Sfx",
+      "GUID": "{A131AE96-692E-4C05-9B82-8543483F4D51}"
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{57B7F9E4-492B-496A-8F1A-CDF794812594}",
+    "Language": "SFX",
+    "Hash": "{8A59C962-B02F-738E-7031-83762C9C0CF2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "Media": [
+     {
+      "Id": "65559052",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOSING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOSING_V4_69EBCF53.wem"
+     },
+     {
+      "Id": "285974634",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOST_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOST_V4_90F163F6.wem"
+     },
+     {
+      "Id": "470330310",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_NORMALtoLOSING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_NORMALtoLOSING_V4_F895A9A8.wem"
+     },
+     {
+      "Id": "514355989",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_WON_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_WON_V4_C4E60D56.wem"
+     },
+     {
+      "Id": "587551040",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_WINING_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_WINING_V4_1EAB9E91.wem"
+     },
+     {
+      "Id": "595490260",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_LOSINGtoNORMAL_V4_EEB8967D.wem"
+     },
+     {
+      "Id": "677109015",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_NORMAL_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_NORMAL_V4_C4E60D56.wem"
+     },
+     {
+      "Id": "779417505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_MainScreen_V2.wav",
+      "CachePath": "SFX/MissionAetheria_MainScreen_V2_FBC78EF0.wem"
+     },
+     {
+      "Id": "794644685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_BattleMusic_INTRO_V4.wav",
+      "CachePath": "SFX/MissionAetheria_BattleMusic_INTRO_V4_0BC1EC11.wem"
+     },
+     {
+      "Id": "1003862042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MissionAetheria_ChoixNiveau_V1.wav",
+      "CachePath": "SFX/MissionAetheria_ChoixNiveau_V1_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music",
+      "GUID": "{D64F318B-9293-48C5-B0DC-53709BC51E8F}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "2764240573",
+         "GUID": "{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1125500713",
+           "GUID": "{19162A02-3135-4733-8270-B3B7648B5031}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "794644685"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1160234136",
+           "GUID": "{BD137C15-F693-4D49-B360-8C2C9FCB1422}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "677109015"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "221232711",
+           "GUID": "{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "285974634"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "335549223",
+           "GUID": "{49964DFC-1A17-4625-8059-142CB79D82E4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "65559052"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "2996998095",
+           "GUID": "{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "587551040"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1080430619",
+           "GUID": "{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "514355989"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1007798069",
+           "GUID": "{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "470330310"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "1071758680",
+           "Id": "1617319613",
+           "GUID": "{725E7E15-B490-43E8-94EA-DF16874D9CCA}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "595490260"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "2607556080",
+         "GUID": "{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "779417505"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1021618141",
+         "Id": "1523385933",
+         "GUID": "{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1003862042"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "133642231",
+      "Name": "General",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\General",
+      "GUID": "{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music",
+      "GUID": "{EB76224D-8A57-4ABA-B9F5-D075EE8D1BCA}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\MusicState",
+      "GUID": "{03117505-D6A5-46FD-847A-B0B2689E4B3F}",
+      "Switches": [
+       {
+        "Id": "1523385933",
+        "Name": "STAGE_CHOICE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\STAGE_CHOICE",
+        "GUID": "{38D71C84-BB80-4146-AC8D-92B967F8C0A4}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "MENU",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\MENU",
+        "GUID": "{AC238BAA-F58B-44DE-BFD9-6AA760DBB9B3}"
+       },
+       {
+        "Id": "2764240573",
+        "Name": "COMBAT",
+        "ObjectPath": "\\Switches\\Default Work Unit\\MusicState\\COMBAT",
+        "GUID": "{FA700F23-940C-4FEF-AE96-5C7E010E4B65}"
+       }
+      ]
+     },
+     {
+      "Id": "1071758680",
+      "Name": "CombatState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\CombatState",
+      "GUID": "{DD31AF01-7573-4CF0-8413-9624ACF3C298}",
+      "Switches": [
+       {
+        "Id": "221232711",
+        "Name": "LOST",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOST",
+        "GUID": "{C62BEFCE-5913-4D48-9A1F-3CE632C083D7}"
+       },
+       {
+        "Id": "335549223",
+        "Name": "LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING",
+        "GUID": "{49964DFC-1A17-4625-8059-142CB79D82E4}"
+       },
+       {
+        "Id": "1007798069",
+        "Name": "NORMAL_TO_LOSING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL_TO_LOSING",
+        "GUID": "{DD36117F-F3B6-4D5D-BE50-0E0F7692E6E4}"
+       },
+       {
+        "Id": "1080430619",
+        "Name": "WON",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WON",
+        "GUID": "{0FFA87B4-9619-42EE-9B62-E03EFCD7F6F7}"
+       },
+       {
+        "Id": "1125500713",
+        "Name": "INTRO",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\INTRO",
+        "GUID": "{19162A02-3135-4733-8270-B3B7648B5031}"
+       },
+       {
+        "Id": "1160234136",
+        "Name": "NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\NORMAL",
+        "GUID": "{BD137C15-F693-4D49-B360-8C2C9FCB1422}"
+       },
+       {
+        "Id": "1617319613",
+        "Name": "LOSING_TO_NORMAL",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\LOSING_TO_NORMAL",
+        "GUID": "{725E7E15-B490-43E8-94EA-DF16874D9CCA}"
+       },
+       {
+        "Id": "2996998095",
+        "Name": "WINNING",
+        "ObjectPath": "\\Switches\\Default Work Unit\\CombatState\\WINNING",
+        "GUID": "{0578C7E8-8A19-4180-91E6-9C71D37D1E60}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7FD7684D-FB9D-036B-6FC7-85774F1D4E48}"
+ }
+}

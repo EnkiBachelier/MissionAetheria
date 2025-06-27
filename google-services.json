@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385121252842",
+    "project_id": "missionaetheria",
+    "storage_bucket": "missionaetheria.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385121252842:android:fb93615a50b5b62391ee93",
+        "android_client_info": {
+          "package_name": "com.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmSr1QSVgpCn7uxIRFpBT5L7koOwh1k5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

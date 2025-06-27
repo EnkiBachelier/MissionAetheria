@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2292057722" Type="User" GUID="{C15CCAE9-6EE0-4CCC-9897-4411CE236610}" Language="SFX" Hash="{1E887BCF-97E5-D8EE-7B3A-BEA14C15555D}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Voicelines</ObjectPath>
+			<ShortName>Voicelines</ShortName>
+			<Path>Voicelines.bnk</Path>
+			<Media>
+				<File Id="7891458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Defeat_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Defeat_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="9259892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_EnergySelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_EnergySelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="12356671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_AllyDead_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Prya_AllyDead_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="14811719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Victory_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Victory_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="14944400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergySelf_04_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_EnergySelf_04_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="19751539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergyAlly_04_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_EnergyAlly_04_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="30033587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Wave_01_RadioFX.wav</ShortName>
+					<CachePath>SFX/Ivan_Wave_01_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35942163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_CharacterSelected_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Max_CharacterSelected_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="41631819" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Victory_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Victory_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="61632399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_AllyDead_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ivan_AllyDead_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="70680863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_LevelPanel_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_LevelPanel_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="77536050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Victory_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Victory_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="87611756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Ride_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Ride_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="90825183" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_HealAlly_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_HealAlly_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="96440283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Wave_02-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_Wave_02-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="99742309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_EnergyAlly_02_RadioFX.wav</ShortName>
+					<CachePath>SFX/Ivan_EnergyAlly_02_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="119034671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_AllyDead_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Max_AllyDead_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="124142445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Wave_02_RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_Wave_02_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126844016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Wave_03-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_Wave_03-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="134585756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_EnergyAlly_01-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_EnergyAlly_01-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="148852018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_CharacterSelected_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ivan_CharacterSelected_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="150229547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Wave_03_RadioFX.wav</ShortName>
+					<CachePath>SFX/Ivan_Wave_03_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="150655717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Wave_03-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_Wave_03-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="150846564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Kill_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Kill_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="157138723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_AllyDead_02-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ines_AllyDead_02-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="175677675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_EnergySelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_EnergySelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="176422894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_HealAlly_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_HealAlly_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="178282464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_AllyDead_03_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ivan_AllyDead_03_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="191876243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_AllyDead_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Max_AllyDead_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="198368169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergySelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_EnergySelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="202858468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergyAlly_02_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_EnergyAlly_02_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="211601658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Defeat_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Defeat_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="217325200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_HealSelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_HealSelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="219688551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Kill_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Kill_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="220886333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Defeat_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Defeat_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221088988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Kill_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Kill_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="224369433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Ride_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Ride_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="225698452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Victory_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Victory_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="226530420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergySelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_EnergySelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="235890749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_LevelPanel_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_LevelPanel_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="235906597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealAlly_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealAlly_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="236876170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealAlly_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealAlly_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="243544485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Victory_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Victory_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="252405609" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Defeat_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Defeat_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="258495533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Wave_01-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_Wave_01-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="268778007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealSelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealSelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="269891574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Kill_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Kill_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="272828815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergyAlly_03_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_EnergyAlly_03_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="285454659" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_HealAlly_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_HealAlly_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="286331592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergyAlly_01-RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergyAlly_01-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="300023026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergySelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergySelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="319189896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_CharacterSelected_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Max_CharacterSelected_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="335774877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Kill_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Kill_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="347014318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealAlly_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealAlly_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="355291604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Wave_01-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_Wave_01-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="355302934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergySelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergySelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="383675652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_AllyDead_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Prya_AllyDead_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="387107002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Defeat_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Defeat_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="390805620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Kill_04_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Kill_04_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="399278646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Kill_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Kill_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="401237013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_AllyDead_03_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Prya_AllyDead_03_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407977081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergyAlly_02-RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergyAlly_02-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="417142917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_EnergySelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_EnergySelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="427027296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealAlly_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealAlly_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="428507330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Victory_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Victory_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="430013882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Defeat_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Defeat_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440077067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_CharacterSelected_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Henrick_CharacterSelected_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="442382548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Wave_03_RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_Wave_03_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="458432933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_AllyDead_01-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Henrick_AllyDead_01-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="465089640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergySelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_EnergySelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="469815539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_HealSelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_HealSelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="474096138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_LevelPanel_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_LevelPanel_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="477875801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealSelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealSelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="483208147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealSelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealSelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="486946511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_EnergyAlly_01_RadioFX.wav</ShortName>
+					<CachePath>SFX/Ivan_EnergyAlly_01_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488945057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Kill_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Kill_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="497028037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealSelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealSelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="505494893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergySelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergySelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="514635203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Defeat_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Defeat_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="518053563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_HealAlly_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_HealAlly_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="523912050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergyAlly_01_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_EnergyAlly_01_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="526393340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Ride_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Ride_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="534316649" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealAlly_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealAlly_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="549402260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Ride_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Ride_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="552906626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_LevelPanel_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_LevelPanel_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="555867759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Victory_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Victory_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="559958491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_CharacterSelected_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ines_CharacterSelected_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="568286703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealSelf_04_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealSelf_04_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="571946817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Defeat_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Defeat_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="576637396" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Defeat_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Defeat_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="579794976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Defeat_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Defeat_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="583228504" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_CharacterSelected_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Prya_CharacterSelected_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="591047779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Kill_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Kill_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="592773668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergySelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_EnergySelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="607147579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Wave_02_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_Wave_02_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="611269190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Ride_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Ride_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="618083270" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_AllyDead_03_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Max_AllyDead_03_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="626635675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_EnergySelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_EnergySelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633157517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_EnergySelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_EnergySelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="637126184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Victory_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Victory_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="660976024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Defeat_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Defeat_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="665130804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergyAlly_01-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_EnergyAlly_01-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="670887872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_EnergyAlly_03-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_EnergyAlly_03-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="677179707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Victory_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Victory_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="678563449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_HealSelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_HealSelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="704238245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_HealSelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_HealSelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706997353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Wave_02_RadioFX.wav</ShortName>
+					<CachePath>SFX/Ivan_Wave_02_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="717833204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Wave_03_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_Wave_03_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="718126907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealAlly_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealAlly_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="736914906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_EnergyAlly_03-RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_EnergyAlly_03-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="745939342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealSelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealSelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="759955983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_AllyDead_01-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ines_AllyDead_01-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="776129353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Defeat_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Defeat_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="790018970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergyAlly_03-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_EnergyAlly_03-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="794087506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealAlly_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealAlly_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="814833133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Wave_01_RadioFX.wav</ShortName>
+					<CachePath>SFX/Henrick_Wave_01_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="818269423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Victory_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Victory_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="819810092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_AllyDead_02-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Henrick_AllyDead_02-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="823944225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_EnergyAlly_02-RadioFX.wav</ShortName>
+					<CachePath>SFX/Prya_EnergyAlly_02-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="834648728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_LevelPanel_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_LevelPanel_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="851612061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealAlly_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealAlly_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="870900210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_Kill_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_Kill_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="877893039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Kill_04_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Kill_04_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="879353775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_HealAlly_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_HealAlly_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="880741557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Kill_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Kill_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="881612466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_HealSelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_HealSelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="886843360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Kill_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Kill_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="892683103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_CharacterSelected_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Henrick_CharacterSelected_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="904848400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Kill_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Kill_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="911042817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Kill_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Kill_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="941357620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_Kill_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Henrick_Kill_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="943074743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealSelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealSelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="943493838" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Prya_HealAlly_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Prya_HealAlly_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="954288621" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Victory_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Victory_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="967096488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergySelf_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_EnergySelf_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="967986764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_Kill_04_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_Kill_04_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="970798864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_AllyDead_03-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ines_AllyDead_03-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="979709759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_EnergyAlly_02-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_EnergyAlly_02-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="990854256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Wave_02-RadioFX.wav</ShortName>
+					<CachePath>SFX/Ines_Wave_02-RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1002271152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_CharacterSelected_02_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ivan_CharacterSelected_02_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1017441674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_HealSelf_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_HealSelf_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1025731252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ines_Kill_01_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ines_Kill_01_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1031448775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Wave_01_RadioFX.wav</ShortName>
+					<CachePath>SFX/Max_Wave_01_RadioFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1041655240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_Victory_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_Victory_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043787928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_HealAlly_03_FXLoud.wav</ShortName>
+					<CachePath>SFX/Ivan_HealAlly_03_FXLoud_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043916013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Henrick_AllyDead_03-InHeadFX.wav</ShortName>
+					<CachePath>SFX/Henrick_AllyDead_03-InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1055761193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ivan_AllyDead_01_InHeadFX.wav</ShortName>
+					<CachePath>SFX/Ivan_AllyDead_01_InHeadFX_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1071309292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Max_EnergySelf_02_FXLoud.wav</ShortName>
+					<CachePath>SFX/Max_EnergySelf_02_FXLoud_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1002703731" Name="Voiceline" ObjectPath="\Events\Default Work Unit\Voiceline" GUID="{6C9799C7-DA53-46A0-9F85-5E69B2E63C0B}" MaxAttenuation="1" DurationType="OneShot" DurationMin="0.9838542" DurationMax="4.877604">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="2550763292" GUID="{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="61632399"/>
+										<MediaRef Id="178282464"/>
+										<MediaRef Id="1055761193"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="99742309"/>
+										<MediaRef Id="486946511"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="9259892"/>
+										<MediaRef Id="175677675"/>
+										<MediaRef Id="633157517"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="474096138"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="150846564"/>
+										<MediaRef Id="219688551"/>
+										<MediaRef Id="335774877"/>
+										<MediaRef Id="967986764"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="235906597"/>
+										<MediaRef Id="427027296"/>
+										<MediaRef Id="1043787928"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="224369433"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="148852018"/>
+										<MediaRef Id="1002271152"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="211601658"/>
+										<MediaRef Id="514635203"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="268778007"/>
+										<MediaRef Id="477875801"/>
+										<MediaRef Id="943074743"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="30033587"/>
+										<MediaRef Id="150229547"/>
+										<MediaRef Id="706997353"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="77536050"/>
+										<MediaRef Id="225698452"/>
+										<MediaRef Id="677179707"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="1842327993" GUID="{663EDA80-E49E-40A0-9FF6-10543A191D1E}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="458432933"/>
+										<MediaRef Id="819810092"/>
+										<MediaRef Id="1043916013"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="286331592"/>
+										<MediaRef Id="407977081"/>
+										<MediaRef Id="736914906"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="300023026"/>
+										<MediaRef Id="355302934"/>
+										<MediaRef Id="505494893"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="834648728"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="399278646"/>
+										<MediaRef Id="877893039"/>
+										<MediaRef Id="880741557"/>
+										<MediaRef Id="941357620"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="90825183"/>
+										<MediaRef Id="285454659"/>
+										<MediaRef Id="879353775"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="526393340"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="440077067"/>
+										<MediaRef Id="892683103"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="220886333"/>
+										<MediaRef Id="660976024"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="678563449"/>
+										<MediaRef Id="704238245"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="124142445"/>
+										<MediaRef Id="442382548"/>
+										<MediaRef Id="814833133"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="555867759"/>
+										<MediaRef Id="637126184"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="313898792" GUID="{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="119034671"/>
+										<MediaRef Id="191876243"/>
+										<MediaRef Id="618083270"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="19751539"/>
+										<MediaRef Id="202858468"/>
+										<MediaRef Id="272828815"/>
+										<MediaRef Id="523912050"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="14944400"/>
+										<MediaRef Id="226530420"/>
+										<MediaRef Id="592773668"/>
+										<MediaRef Id="1071309292"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="70680863"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="390805620"/>
+										<MediaRef Id="488945057"/>
+										<MediaRef Id="886843360"/>
+										<MediaRef Id="904848400"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="236876170"/>
+										<MediaRef Id="534316649"/>
+										<MediaRef Id="718126907"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="87611756"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="35942163"/>
+										<MediaRef Id="319189896"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="7891458"/>
+										<MediaRef Id="430013882"/>
+										<MediaRef Id="571946817"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="497028037"/>
+										<MediaRef Id="568286703"/>
+										<MediaRef Id="1017441674"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="607147579"/>
+										<MediaRef Id="717833204"/>
+										<MediaRef Id="1031448775"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="14811719"/>
+										<MediaRef Id="1041655240"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="3142410969" GUID="{8948C5C2-45FA-4BAE-8207-F5212C170122}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="12356671"/>
+										<MediaRef Id="383675652"/>
+										<MediaRef Id="401237013"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="134585756"/>
+										<MediaRef Id="670887872"/>
+										<MediaRef Id="823944225"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="417142917"/>
+										<MediaRef Id="626635675"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="235890749"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="221088988"/>
+										<MediaRef Id="591047779"/>
+										<MediaRef Id="870900210"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="176422894"/>
+										<MediaRef Id="518053563"/>
+										<MediaRef Id="943493838"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="611269190"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="583228504"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="387107002"/>
+										<MediaRef Id="776129353"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="217325200"/>
+										<MediaRef Id="469815539"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="96440283"/>
+										<MediaRef Id="126844016"/>
+										<MediaRef Id="355291604"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="243544485"/>
+										<MediaRef Id="428507330"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="778039303" GUID="{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="157138723"/>
+										<MediaRef Id="759955983"/>
+										<MediaRef Id="970798864"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="665130804"/>
+										<MediaRef Id="790018970"/>
+										<MediaRef Id="979709759"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="198368169"/>
+										<MediaRef Id="465089640"/>
+										<MediaRef Id="967096488"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="552906626"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="269891574"/>
+										<MediaRef Id="911042817"/>
+										<MediaRef Id="1025731252"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="347014318"/>
+										<MediaRef Id="794087506"/>
+										<MediaRef Id="851612061"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="549402260"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="559958491"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="252405609"/>
+										<MediaRef Id="576637396"/>
+										<MediaRef Id="579794976"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="483208147"/>
+										<MediaRef Id="745939342"/>
+										<MediaRef Id="881612466"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="150655717"/>
+										<MediaRef Id="258495533"/>
+										<MediaRef Id="990854256"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="41631819"/>
+										<MediaRef Id="818269423"/>
+										<MediaRef Id="954288621"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="2550763292" GUID="{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="61632399"/>
+										<MediaRef Id="178282464"/>
+										<MediaRef Id="1055761193"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="99742309"/>
+										<MediaRef Id="486946511"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="9259892"/>
+										<MediaRef Id="175677675"/>
+										<MediaRef Id="633157517"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="474096138"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="150846564"/>
+										<MediaRef Id="219688551"/>
+										<MediaRef Id="335774877"/>
+										<MediaRef Id="967986764"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="235906597"/>
+										<MediaRef Id="427027296"/>
+										<MediaRef Id="1043787928"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="224369433"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="148852018"/>
+										<MediaRef Id="1002271152"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="211601658"/>
+										<MediaRef Id="514635203"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="268778007"/>
+										<MediaRef Id="477875801"/>
+										<MediaRef Id="943074743"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="30033587"/>
+										<MediaRef Id="150229547"/>
+										<MediaRef Id="706997353"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="77536050"/>
+										<MediaRef Id="225698452"/>
+										<MediaRef Id="677179707"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="1842327993" GUID="{663EDA80-E49E-40A0-9FF6-10543A191D1E}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="458432933"/>
+										<MediaRef Id="819810092"/>
+										<MediaRef Id="1043916013"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="286331592"/>
+										<MediaRef Id="407977081"/>
+										<MediaRef Id="736914906"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="300023026"/>
+										<MediaRef Id="355302934"/>
+										<MediaRef Id="505494893"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="834648728"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="399278646"/>
+										<MediaRef Id="877893039"/>
+										<MediaRef Id="880741557"/>
+										<MediaRef Id="941357620"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="90825183"/>
+										<MediaRef Id="285454659"/>
+										<MediaRef Id="879353775"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="526393340"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="440077067"/>
+										<MediaRef Id="892683103"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="220886333"/>
+										<MediaRef Id="660976024"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="678563449"/>
+										<MediaRef Id="704238245"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="124142445"/>
+										<MediaRef Id="442382548"/>
+										<MediaRef Id="814833133"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="555867759"/>
+										<MediaRef Id="637126184"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="313898792" GUID="{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="119034671"/>
+										<MediaRef Id="191876243"/>
+										<MediaRef Id="618083270"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="19751539"/>
+										<MediaRef Id="202858468"/>
+										<MediaRef Id="272828815"/>
+										<MediaRef Id="523912050"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="14944400"/>
+										<MediaRef Id="226530420"/>
+										<MediaRef Id="592773668"/>
+										<MediaRef Id="1071309292"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="70680863"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="390805620"/>
+										<MediaRef Id="488945057"/>
+										<MediaRef Id="886843360"/>
+										<MediaRef Id="904848400"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="236876170"/>
+										<MediaRef Id="534316649"/>
+										<MediaRef Id="718126907"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="87611756"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="35942163"/>
+										<MediaRef Id="319189896"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="7891458"/>
+										<MediaRef Id="430013882"/>
+										<MediaRef Id="571946817"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="497028037"/>
+										<MediaRef Id="568286703"/>
+										<MediaRef Id="1017441674"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="607147579"/>
+										<MediaRef Id="717833204"/>
+										<MediaRef Id="1031448775"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="14811719"/>
+										<MediaRef Id="1041655240"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="3142410969" GUID="{8948C5C2-45FA-4BAE-8207-F5212C170122}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="12356671"/>
+										<MediaRef Id="383675652"/>
+										<MediaRef Id="401237013"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="134585756"/>
+										<MediaRef Id="670887872"/>
+										<MediaRef Id="823944225"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="417142917"/>
+										<MediaRef Id="626635675"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="235890749"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="221088988"/>
+										<MediaRef Id="591047779"/>
+										<MediaRef Id="870900210"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="176422894"/>
+										<MediaRef Id="518053563"/>
+										<MediaRef Id="943493838"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="611269190"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="583228504"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="387107002"/>
+										<MediaRef Id="776129353"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="217325200"/>
+										<MediaRef Id="469815539"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="96440283"/>
+										<MediaRef Id="126844016"/>
+										<MediaRef Id="355291604"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="243544485"/>
+										<MediaRef Id="428507330"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1493036792" Id="778039303" GUID="{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1825909681" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+									<MediaRefs>
+										<MediaRef Id="157138723"/>
+										<MediaRef Id="759955983"/>
+										<MediaRef Id="970798864"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3178938455" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+									<MediaRefs>
+										<MediaRef Id="665130804"/>
+										<MediaRef Id="790018970"/>
+										<MediaRef Id="979709759"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3013823463" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+									<MediaRefs>
+										<MediaRef Id="198368169"/>
+										<MediaRef Id="465089640"/>
+										<MediaRef Id="967096488"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="993089949" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+									<MediaRefs>
+										<MediaRef Id="552906626"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2030840469" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+									<MediaRefs>
+										<MediaRef Id="269891574"/>
+										<MediaRef Id="911042817"/>
+										<MediaRef Id="1025731252"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2745196565" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+									<MediaRefs>
+										<MediaRef Id="347014318"/>
+										<MediaRef Id="794087506"/>
+										<MediaRef Id="851612061"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2766121599" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+									<MediaRefs>
+										<MediaRef Id="549402260"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2227248325" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+									<MediaRefs>
+										<MediaRef Id="559958491"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1593864692" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+									<MediaRefs>
+										<MediaRef Id="252405609"/>
+										<MediaRef Id="576637396"/>
+										<MediaRef Id="579794976"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="3506714309" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+									<MediaRefs>
+										<MediaRef Id="483208147"/>
+										<MediaRef Id="745939342"/>
+										<MediaRef Id="881612466"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="1941003890" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+									<MediaRefs>
+										<MediaRef Id="150655717"/>
+										<MediaRef Id="258495533"/>
+										<MediaRef Id="990854256"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="408582676" Id="2716678721" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+									<MediaRefs>
+										<MediaRef Id="41631819"/>
+										<MediaRef Id="818269423"/>
+										<MediaRef Id="954288621"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="133642231" Name="General" ObjectPath="\Game Parameters\Default Work Unit\General" GUID="{78BF4D58-A532-42C7-8FCB-7BE7E9FAB93A}"/>
+				<GameParameter Id="1002703731" Name="Voiceline" ObjectPath="\Game Parameters\Default Work Unit\Voiceline" GUID="{94D08BFA-C1C6-42E7-9FF7-D74547FCCE28}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="408582676" Name="Types" ObjectPath="\Switches\Default Work Unit\Types" GUID="{6322B586-4EF5-4C55-8573-4AFE86A6EFC2}">
+					<Switches>
+						<Switch Id="993089949" Name="LevelPanel" ObjectPath="\Switches\Default Work Unit\Types\LevelPanel" GUID="{67D35817-B21D-4635-B9CF-6A84AD345F21}"/>
+						<Switch Id="1593864692" Name="Defeat" ObjectPath="\Switches\Default Work Unit\Types\Defeat" GUID="{6D4942B4-3FAC-40C4-8B3A-EDEC4C17114E}"/>
+						<Switch Id="1825909681" Name="AllyDead" ObjectPath="\Switches\Default Work Unit\Types\AllyDead" GUID="{A3AD1609-3754-4BCF-B89B-80E558F43AEB}"/>
+						<Switch Id="1941003890" Name="Wave" ObjectPath="\Switches\Default Work Unit\Types\Wave" GUID="{5FEF92E7-C6AD-4E97-A0D0-D73D26B86211}"/>
+						<Switch Id="2030840469" Name="Kill" ObjectPath="\Switches\Default Work Unit\Types\Kill" GUID="{BA8FAB26-9C76-479A-8A3B-5898E59E1C63}"/>
+						<Switch Id="2227248325" Name="CharacterSelected" ObjectPath="\Switches\Default Work Unit\Types\CharacterSelected" GUID="{36611492-88FE-47FE-858A-CACC317424ED}"/>
+						<Switch Id="2716678721" Name="Victory" ObjectPath="\Switches\Default Work Unit\Types\Victory" GUID="{F6DC14FD-6F43-4018-8126-B948090A0B12}"/>
+						<Switch Id="2745196565" Name="HealAlly" ObjectPath="\Switches\Default Work Unit\Types\HealAlly" GUID="{D6C83D60-1E40-41AD-8526-B4B8A8BD3BFF}"/>
+						<Switch Id="2766121599" Name="Ride" ObjectPath="\Switches\Default Work Unit\Types\Ride" GUID="{E3B78064-3207-495F-9305-A4F644AE2846}"/>
+						<Switch Id="3013823463" Name="EnergySelf" ObjectPath="\Switches\Default Work Unit\Types\EnergySelf" GUID="{14350611-A5A8-4F6A-B9FC-4993666A553F}"/>
+						<Switch Id="3178938455" Name="EnergyAlly" ObjectPath="\Switches\Default Work Unit\Types\EnergyAlly" GUID="{F384770F-A1F9-4D68-A329-8BBC033453B5}"/>
+						<Switch Id="3506714309" Name="HealSelf" ObjectPath="\Switches\Default Work Unit\Types\HealSelf" GUID="{617D86CB-FDE5-4FE3-9EA3-333E03D4A307}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1493036792" Name="Roles" ObjectPath="\Switches\Default Work Unit\Roles" GUID="{1013B0FF-871E-4349-832C-C7D6070DE084}">
+					<Switches>
+						<Switch Id="313898792" Name="PYROMANIAC" ObjectPath="\Switches\Default Work Unit\Roles\PYROMANIAC" GUID="{4BD7B68D-3996-42CA-B39D-EFF4E37EC758}"/>
+						<Switch Id="778039303" Name="HACKER" ObjectPath="\Switches\Default Work Unit\Roles\HACKER" GUID="{9E4982C4-3B10-426D-87FF-882EE22CA7E7}"/>
+						<Switch Id="1842327993" Name="PILOT" ObjectPath="\Switches\Default Work Unit\Roles\PILOT" GUID="{663EDA80-E49E-40A0-9FF6-10543A191D1E}"/>
+						<Switch Id="2550763292" Name="SNIPER" ObjectPath="\Switches\Default Work Unit\Roles\SNIPER" GUID="{5268176B-1229-490F-9B37-1EFE8DDBCB0F}"/>
+						<Switch Id="3142410969" Name="MEDIC" ObjectPath="\Switches\Default Work Unit\Roles\MEDIC" GUID="{8948C5C2-45FA-4BAE-8207-F5212C170122}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D409BDF5-593F-4381-F934-7CBB1DE17F40}</FileHash>
+</SoundBanksInfo>
